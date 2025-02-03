@@ -1,0 +1,2092 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (gz-waves1) JobQueued: {'identifier': 'gz-waves1', 'dependencies': OrderedDict()}
+[0.000527] (gz-waves1) JobStarted: {'identifier': 'gz-waves1'}
+[0.022811] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'cmake'}
+[0.024551] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '/home/andy/gz_ws/src/asv_wave_sim/gz-waves', '-DCMAKE_BUILD_TYPE=RelWithDebInfo', '-DBUILD_TESTING=ON', '-DCMAKE_CXX_STANDARD=17', '-DCMAKE_INSTALL_PREFIX=/home/andy/gz_ws/install'], 'cwd': '/home/andy/gz_ws/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/andy/gz_ws/install/lib:gz_ws/install/lib:/home/andy/gz_ws/src/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build:asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worldsexport:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds'), ('USER', 'andy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andy/gz_ws/src/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/andy'), ('OLDPWD', '/home/andy/gz_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andy'), ('NAME', 'DESKTOP-MMOFPK5'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/andy/gz_ws/src/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andy/gz_ws/src/install/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/mnt/c/PROGRA~1/JPKI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/andyc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/andyc/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('GZ_IP', '127.0.0.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('PWD', '/home/andy/gz_ws/build/gz-waves1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('WSLENV', '')]), 'shell': False}
+[0.097312] (-) TimerEvent: {}
+[0.198035] (-) TimerEvent: {}
+[0.298968] (-) TimerEvent: {}
+[0.317501] (gz-waves1) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.399160] (-) TimerEvent: {}
+[0.500075] (-) TimerEvent: {}
+[0.600675] (-) TimerEvent: {}
+[0.701917] (-) TimerEvent: {}
+[0.803185] (-) TimerEvent: {}
+[0.904163] (-) TimerEvent: {}
+[0.992728] (gz-waves1) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.004474] (-) TimerEvent: {}
+[1.105115] (-) TimerEvent: {}
+[1.205926] (-) TimerEvent: {}
+[1.306660] (-) TimerEvent: {}
+[1.407421] (-) TimerEvent: {}
+[1.438782] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.507696] (-) TimerEvent: {}
+[1.608264] (-) TimerEvent: {}
+[1.614779] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.627689] (gz-waves1) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.630052] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.631655] (gz-waves1) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.639141] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.708408] (-) TimerEvent: {}
+[1.809063] (-) TimerEvent: {}
+[1.829746] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.842399] (gz-waves1) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.843182] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.843777] (gz-waves1) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.877676] (gz-waves1) StdoutLine: {'line': b'-- gz-waves1 version 1.0.0\n'}
+[1.877887] (gz-waves1) StdoutLine: {'line': b'-- Operating system is Linux\n'}
+[1.909212] (-) TimerEvent: {}
+[2.009796] (-) TimerEvent: {}
+[2.033315] (gz-waves1) StdoutLine: {'line': b'-- Found CPack generators: DEB\n'}
+[2.109983] (-) TimerEvent: {}
+[2.210813] (-) TimerEvent: {}
+[2.311240] (-) TimerEvent: {}
+[2.411687] (-) TimerEvent: {}
+[2.512132] (-) TimerEvent: {}
+[2.613139] (-) TimerEvent: {}
+[2.714252] (-) TimerEvent: {}
+[2.815385] (-) TimerEvent: {}
+[2.916166] (-) TimerEvent: {}
+[3.016896] (-) TimerEvent: {}
+[3.117645] (-) TimerEvent: {}
+[3.218365] (-) TimerEvent: {}
+[3.319437] (-) TimerEvent: {}
+[3.420183] (-) TimerEvent: {}
+[3.520871] (-) TimerEvent: {}
+[3.621573] (-) TimerEvent: {}
+[3.722303] (-) TimerEvent: {}
+[3.823106] (-) TimerEvent: {}
+[3.885044] (gz-waves1) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams system filesystem \n'}
+[3.891623] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[3.893665] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7\n'}
+[3.898889] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.899469] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.903143] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-math7> component [eigen3]\n'}
+[3.907118] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7-eigen3 -- found version 7.5.1\n'}
+[3.907947] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-math7-eigen3\n'}
+[3.920316] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 - found\n'}
+[3.920715] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.923317] (-) TimerEvent: {}
+[3.926317] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[3.927089] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[3.927721] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[3.928390] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2\n'}
+[3.928949] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-utils2> component [cli]\n'}
+[3.933473] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2-cli -- found version 2.2.0\n'}
+[3.934116] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-utils2-cli\n'}
+[3.937353] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [loader]\n'}
+[3.941666] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2-loader -- found version 2.0.3\n'}
+[3.943021] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-loader\n'}
+[3.945205] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [register]\n'}
+[3.949437] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2-register -- found version 2.0.3\n'}
+[3.950012] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2-register\n'}
+[3.951481] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 - found\n'}
+[3.951760] (gz-waves1) StdoutLine: {'line': b'\n'}
+[3.956680] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[3.957311] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[3.957750] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[4.006322] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[4.023526] (-) TimerEvent: {}
+[4.124257] (-) TimerEvent: {}
+[4.155340] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[4.157378] (gz-waves1) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[4.171413] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[4.191112] (gz-waves1) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[4.224480] (-) TimerEvent: {}
+[4.230533] (gz-waves1) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[4.233632] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[4.238048] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-graphics -- found version 5.7.0\n'}
+[4.238895] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-graphics\n'}
+[4.239406] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[4.252489] (gz-waves1) StdoutLine: {'line': b'-- Found GzAssimp: TRUE (found version "5.2.0") \n'}
+[4.255450] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[4.259155] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-events -- found version 5.7.0\n'}
+[4.259668] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-events\n'}
+[4.260206] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[4.262914] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 - found\n'}
+[4.263214] (gz-waves1) StdoutLine: {'line': b'\n'}
+[4.267358] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[4.267900] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-msgs9\n'}
+[4.324694] (-) TimerEvent: {}
+[4.425332] (-) TimerEvent: {}
+[4.525997] (-) TimerEvent: {}
+[4.626707] (-) TimerEvent: {}
+[4.727290] (-) TimerEvent: {}
+[4.827981] (-) TimerEvent: {}
+[4.928668] (-) TimerEvent: {}
+[5.029327] (-) TimerEvent: {}
+[5.129949] (-) TimerEvent: {}
+[5.230507] (-) TimerEvent: {}
+[5.331171] (-) TimerEvent: {}
+[5.431643] (-) TimerEvent: {}
+[5.532178] (-) TimerEvent: {}
+[5.632846] (-) TimerEvent: {}
+[5.733592] (-) TimerEvent: {}
+[5.834151] (-) TimerEvent: {}
+[5.934645] (-) TimerEvent: {}
+[6.035071] (-) TimerEvent: {}
+[6.135550] (-) TimerEvent: {}
+[6.235997] (-) TimerEvent: {}
+[6.336477] (-) TimerEvent: {}
+[6.436965] (-) TimerEvent: {}
+[6.524153] (gz-waves1) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[6.525266] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[6.533521] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[6.537107] (-) TimerEvent: {}
+[6.548139] (gz-waves1) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[6.581470] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 - found\n'}
+[6.581683] (gz-waves1) StdoutLine: {'line': b'\n'}
+[6.587610] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[6.588235] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[6.637279] (-) TimerEvent: {}
+[6.737770] (-) TimerEvent: {}
+[6.838285] (-) TimerEvent: {}
+[6.938835] (-) TimerEvent: {}
+[7.039599] (-) TimerEvent: {}
+[7.140108] (-) TimerEvent: {}
+[7.240577] (-) TimerEvent: {}
+[7.341065] (-) TimerEvent: {}
+[7.441547] (-) TimerEvent: {}
+[7.542079] (-) TimerEvent: {}
+[7.642611] (-) TimerEvent: {}
+[7.743341] (-) TimerEvent: {}
+[7.843804] (-) TimerEvent: {}
+[7.944292] (-) TimerEvent: {}
+[8.044782] (-) TimerEvent: {}
+[8.145289] (-) TimerEvent: {}
+[8.245835] (-) TimerEvent: {}
+[8.346451] (-) TimerEvent: {}
+[8.446997] (-) TimerEvent: {}
+[8.547842] (-) TimerEvent: {}
+[8.648323] (-) TimerEvent: {}
+[8.748823] (-) TimerEvent: {}
+[8.849315] (-) TimerEvent: {}
+[8.949819] (-) TimerEvent: {}
+[9.050500] (-) TimerEvent: {}
+[9.151167] (-) TimerEvent: {}
+[9.252127] (-) TimerEvent: {}
+[9.352554] (-) TimerEvent: {}
+[9.453255] (-) TimerEvent: {}
+[9.553754] (-) TimerEvent: {}
+[9.654217] (-) TimerEvent: {}
+[9.754695] (-) TimerEvent: {}
+[9.851814] (gz-waves1) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[9.854864] (-) TimerEvent: {}
+[9.857525] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[9.893567] (gz-waves1) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[9.929385] (gz-waves1) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[9.955046] (-) TimerEvent: {}
+[9.994659] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[9.995153] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[9.997887] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 - found\n'}
+[9.998038] (gz-waves1) StdoutLine: {'line': b'\n'}
+[10.001317] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[10.001955] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-rendering7\n'}
+[10.003227] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[10.003457] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[10.003872] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[10.004437] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[10.004605] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.004694] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.016968] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [graphics]\n'}
+[10.017532] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[10.017936] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [geospatial]\n'}
+[10.021960] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-geospatial -- found version 5.7.0\n'}
+[10.022811] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-geospatial\n'}
+[10.023505] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[10.024088] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[10.026501] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[10.027059] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-plugin2\n'}
+[10.027582] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[10.027857] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-plugin2> component [all]\n'}
+[10.031004] (gz-waves1) StdoutLine: {'line': b'-- Looking for all libraries of gz-plugin2 -- found version 2.0.3\n'}
+[10.031443] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[10.034193] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[10.055232] (-) TimerEvent: {}
+[10.156034] (-) TimerEvent: {}
+[10.256485] (-) TimerEvent: {}
+[10.357113] (-) TimerEvent: {}
+[10.457843] (-) TimerEvent: {}
+[10.558330] (-) TimerEvent: {}
+[10.571514] (gz-waves1) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL \n'}
+[10.573905] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 - found\n'}
+[10.574217] (gz-waves1) StdoutLine: {'line': b'\n'}
+[10.601529] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sim7 -- found version 7.9.0\n'}
+[10.602128] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sim7\n'}
+[10.605732] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[10.606239] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of sdformat13\n'}
+[10.613759] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[10.614335] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[10.617521] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[10.618208] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[10.618995] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12\n'}
+[10.658552] (-) TimerEvent: {}
+[10.759094] (-) TimerEvent: {}
+[10.859596] (-) TimerEvent: {}
+[10.960147] (-) TimerEvent: {}
+[11.060613] (-) TimerEvent: {}
+[11.161138] (-) TimerEvent: {}
+[11.261625] (-) TimerEvent: {}
+[11.362249] (-) TimerEvent: {}
+[11.462753] (-) TimerEvent: {}
+[11.563220] (-) TimerEvent: {}
+[11.663729] (-) TimerEvent: {}
+[11.764197] (-) TimerEvent: {}
+[11.864693] (-) TimerEvent: {}
+[11.965176] (-) TimerEvent: {}
+[12.065661] (-) TimerEvent: {}
+[12.166213] (-) TimerEvent: {}
+[12.266841] (-) TimerEvent: {}
+[12.367274] (-) TimerEvent: {}
+[12.467834] (-) TimerEvent: {}
+[12.568267] (-) TimerEvent: {}
+[12.668741] (-) TimerEvent: {}
+[12.769217] (-) TimerEvent: {}
+[12.869652] (-) TimerEvent: {}
+[12.970080] (-) TimerEvent: {}
+[13.070532] (-) TimerEvent: {}
+[13.171005] (-) TimerEvent: {}
+[13.271456] (-) TimerEvent: {}
+[13.348391] (gz-waves1) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[13.354162] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[13.366965] (gz-waves1) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[13.371636] (-) TimerEvent: {}
+[13.412076] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[13.412625] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[13.413515] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [log]\n'}
+[13.424147] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12-log -- found version 12.2.2\n'}
+[13.425433] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-log\n'}
+[13.427221] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-transport12> component [parameters]\n'}
+[13.430306] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12-parameters -- found version 12.2.2\n'}
+[13.430980] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-transport12-parameters\n'}
+[13.433348] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[13.433872] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[13.434461] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[13.434963] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[13.435609] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[13.435841] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[13.447196] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [profiler]\n'}
+[13.451295] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-profiler -- found version 5.7.0\n'}
+[13.451746] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-profiler\n'}
+[13.453530] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [events]\n'}
+[13.454120] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [av]\n'}
+[13.457939] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-av -- found version 5.7.0\n'}
+[13.458872] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-av\n'}
+[13.466906] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[13.471848] (-) TimerEvent: {}
+[13.481615] (gz-waves1) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[13.514653] (gz-waves1) StdoutLine: {'line': b'-- Found SWSCALE: TRUE  \n'}
+[13.522557] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavdevice >= 56.4.100'\n"}
+[13.540216] (gz-waves1) StdoutLine: {'line': b'--   Found libavdevice , version 58.13.100\n'}
+[13.572043] (-) TimerEvent: {}
+[13.577994] (gz-waves1) StdoutLine: {'line': b'-- Found AVDEVICE: TRUE (Required is at least version "56.4.100") \n'}
+[13.587220] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavformat'\n"}
+[13.600947] (gz-waves1) StdoutLine: {'line': b'--   Found libavformat, version 58.76.100\n'}
+[13.635221] (gz-waves1) StdoutLine: {'line': b'-- Found AVFORMAT: TRUE  \n'}
+[13.642873] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[13.655717] (gz-waves1) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[13.672199] (-) TimerEvent: {}
+[13.691501] (gz-waves1) StdoutLine: {'line': b'-- Found AVCODEC: TRUE  \n'}
+[13.699975] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[13.713987] (gz-waves1) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[13.746566] (gz-waves1) StdoutLine: {'line': b'-- Found AVUTIL: TRUE  \n'}
+[13.748877] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [io]\n'}
+[13.752334] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-io -- found version 5.7.0\n'}
+[13.753021] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-io\n'}
+[13.760341] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-fuel_tools8 -- found version 8.2.0\n'}
+[13.760943] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-fuel_tools8\n'}
+[13.772440] (-) TimerEvent: {}
+[13.873117] (-) TimerEvent: {}
+[13.973695] (-) TimerEvent: {}
+[14.074155] (-) TimerEvent: {}
+[14.174713] (-) TimerEvent: {}
+[14.275599] (-) TimerEvent: {}
+[14.376117] (-) TimerEvent: {}
+[14.476700] (-) TimerEvent: {}
+[14.577273] (-) TimerEvent: {}
+[14.677830] (-) TimerEvent: {}
+[14.778430] (-) TimerEvent: {}
+[14.879125] (-) TimerEvent: {}
+[14.979701] (-) TimerEvent: {}
+[15.080201] (-) TimerEvent: {}
+[15.180656] (-) TimerEvent: {}
+[15.281163] (-) TimerEvent: {}
+[15.381610] (-) TimerEvent: {}
+[15.394756] (gz-waves1) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[15.409553] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[15.424061] (gz-waves1) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[15.456511] (gz-waves1) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[15.467765] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[15.481043] (gz-waves1) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[15.481765] (-) TimerEvent: {}
+[15.514461] (gz-waves1) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[15.514931] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[15.515544] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[15.516225] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5\n'}
+[15.516769] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[15.517023] (gz-waves1) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[15.517138] (gz-waves1) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[15.528146] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-common5> component [testing]\n'}
+[15.531818] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5-testing -- found version 5.7.0\n'}
+[15.532378] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-common5-testing\n'}
+[15.535019] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[15.535538] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[15.541581] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-gui7 -- found version 7.2.2\n'}
+[15.542358] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-gui7\n'}
+[15.581964] (-) TimerEvent: {}
+[15.682461] (-) TimerEvent: {}
+[15.782949] (-) TimerEvent: {}
+[15.883474] (-) TimerEvent: {}
+[15.983950] (-) TimerEvent: {}
+[16.084415] (-) TimerEvent: {}
+[16.185056] (-) TimerEvent: {}
+[16.285578] (-) TimerEvent: {}
+[16.386177] (-) TimerEvent: {}
+[16.486743] (-) TimerEvent: {}
+[16.587365] (-) TimerEvent: {}
+[16.687859] (-) TimerEvent: {}
+[16.788358] (-) TimerEvent: {}
+[16.853599] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[16.854209] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[16.854729] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[16.855293] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[16.855862] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[16.856468] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[16.857132] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[16.888535] (-) TimerEvent: {}
+[16.989139] (-) TimerEvent: {}
+[17.030631] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6 -- found version 6.7.0\n'}
+[17.031497] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6\n'}
+[17.031910] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[17.032495] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[17.033126] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-plugin2 -- found version 2.0.3\n'}
+[17.033695] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[17.036647] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [heightmap]\n'}
+[17.039567] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-heightmap -- found version 6.7.0\n'}
+[17.039998] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-heightmap\n'}
+[17.040631] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[17.042048] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [mesh]\n'}
+[17.046078] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-mesh -- found version 6.7.0\n'}
+[17.046956] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-mesh\n'}
+[17.047442] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[17.048694] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-physics6> component [sdf]\n'}
+[17.052371] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-physics6-sdf -- found version 6.7.0\n'}
+[17.052986] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-physics6-sdf\n'}
+[17.053393] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[17.065147] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[17.065680] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7\n'}
+[17.089584] (-) TimerEvent: {}
+[17.190303] (-) TimerEvent: {}
+[17.290871] (-) TimerEvent: {}
+[17.391319] (-) TimerEvent: {}
+[17.491950] (-) TimerEvent: {}
+[17.592417] (-) TimerEvent: {}
+[17.692925] (-) TimerEvent: {}
+[17.793410] (-) TimerEvent: {}
+[17.893897] (-) TimerEvent: {}
+[17.994392] (-) TimerEvent: {}
+[18.094913] (-) TimerEvent: {}
+[18.195661] (-) TimerEvent: {}
+[18.296361] (-) TimerEvent: {}
+[18.373574] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[18.374347] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-common5 -- found version 5.7.0\n'}
+[18.374776] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-transport12 -- found version 12.2.2\n'}
+[18.375515] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[18.376103] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-msgs9 -- found version 9.5.1\n'}
+[18.376743] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[18.386621] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_pressure]\n'}
+[18.389864] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_pressure -- found version 7.3.1\n'}
+[18.390464] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_pressure\n'}
+[18.392269] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [air_speed]\n'}
+[18.395315] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-air_speed -- found version 7.3.1\n'}
+[18.396042] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-air_speed\n'}
+[18.396476] (-) TimerEvent: {}
+[18.398330] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [altimeter]\n'}
+[18.402140] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-altimeter -- found version 7.3.1\n'}
+[18.402865] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-altimeter\n'}
+[18.404794] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [imu]\n'}
+[18.408372] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-imu -- found version 7.3.1\n'}
+[18.409257] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-imu\n'}
+[18.411281] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [force_torque]\n'}
+[18.414446] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-force_torque -- found version 7.3.1\n'}
+[18.414897] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-force_torque\n'}
+[18.417334] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [logical_camera]\n'}
+[18.420224] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-logical_camera -- found version 7.3.1\n'}
+[18.420875] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-logical_camera\n'}
+[18.422716] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [magnetometer]\n'}
+[18.425967] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-magnetometer -- found version 7.3.1\n'}
+[18.426788] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-magnetometer\n'}
+[18.428631] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [navsat]\n'}
+[18.431800] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-navsat -- found version 7.3.1\n'}
+[18.432639] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-navsat\n'}
+[18.434724] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rendering]\n'}
+[18.437817] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-rendering -- found version 7.3.1\n'}
+[18.438466] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rendering\n'}
+[18.440204] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [lidar]\n'}
+[18.443508] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-lidar -- found version 7.3.1\n'}
+[18.444433] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-lidar\n'}
+[18.446543] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.448917] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [gpu_lidar]\n'}
+[18.451326] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-gpu_lidar -- found version 7.3.1\n'}
+[18.451993] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-gpu_lidar\n'}
+[18.452541] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.454618] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [camera]\n'}
+[18.458330] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-camera -- found version 7.3.1\n'}
+[18.458978] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-camera\n'}
+[18.459549] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.461985] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [boundingbox_camera]\n'}
+[18.466150] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-boundingbox_camera -- found version 7.3.1\n'}
+[18.466573] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-boundingbox_camera\n'}
+[18.468559] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [segmentation_camera]\n'}
+[18.472079] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-segmentation_camera -- found version 7.3.1\n'}
+[18.472533] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-segmentation_camera\n'}
+[18.474404] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [depth_camera]\n'}
+[18.477620] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-depth_camera -- found version 7.3.1\n'}
+[18.478293] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-depth_camera\n'}
+[18.478720] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.480966] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [rgbd_camera]\n'}
+[18.483924] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-rgbd_camera -- found version 7.3.1\n'}
+[18.484652] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-rgbd_camera\n'}
+[18.485205] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.487304] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [thermal_camera]\n'}
+[18.490330] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-thermal_camera -- found version 7.3.1\n'}
+[18.490761] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-thermal_camera\n'}
+[18.491251] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7 -- found version 7.3.1\n'}
+[18.493405] (gz-waves1) StdoutLine: {'line': b'-- Searching for <gz-sensors7> component [wide_angle_camera]\n'}
+[18.496679] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sensors7-wide_angle_camera -- found version 7.3.1\n'}
+[18.496916] (-) TimerEvent: {}
+[18.497348] (gz-waves1) StdoutLine: {'line': b'-- Searching for dependencies of gz-sensors7-wide_angle_camera\n'}
+[18.499853] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-rendering7 -- found version 7.5.0\n'}
+[18.500615] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-math7 -- found version 7.5.1\n'}
+[18.501516] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-utils2 -- found version 2.2.0\n'}
+[18.597156] (-) TimerEvent: {}
+[18.697627] (-) TimerEvent: {}
+[18.798100] (-) TimerEvent: {}
+[18.898533] (-) TimerEvent: {}
+[18.999089] (-) TimerEvent: {}
+[19.099676] (-) TimerEvent: {}
+[19.200347] (-) TimerEvent: {}
+[19.300863] (-) TimerEvent: {}
+[19.401441] (-) TimerEvent: {}
+[19.502092] (-) TimerEvent: {}
+[19.602724] (-) TimerEvent: {}
+[19.703220] (-) TimerEvent: {}
+[19.803716] (-) TimerEvent: {}
+[19.818831] (gz-waves1) StdoutLine: {'line': b'-- Looking for gz-sim7 - found\n'}
+[19.819234] (gz-waves1) StdoutLine: {'line': b'\n'}
+[19.819919] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 -- found version 13.9.0\n'}
+[19.820388] (gz-waves1) StdoutLine: {'line': b'-- Looking for sdformat13 - found\n'}
+[19.820526] (gz-waves1) StdoutLine: {'line': b'\n'}
+[19.820610] (gz-waves1) StdoutLine: {'line': b'-- Compiling against Gazebo Garden\n'}
+[19.886360] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-RTShaderSystem >= 1.9'\n"}
+[19.900614] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-RTShaderSystem , version 1.9.0\n'}
+[19.903882] (-) TimerEvent: {}
+[19.945482] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Terrain >= 1.9'\n"}
+[19.961273] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Terrain , version 1.9.0\n'}
+[20.004071] (-) TimerEvent: {}
+[20.005712] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Overlay >= 1.9'\n"}
+[20.021099] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Overlay , version 1.9.0\n'}
+[20.063620] (gz-waves1) StdoutLine: {'line': b"-- Checking for module 'OGRE-Paging >= 1.9'\n"}
+[20.077043] (gz-waves1) StdoutLine: {'line': b'--   Found OGRE-Paging , version 1.9.0\n'}
+[20.104270] (-) TimerEvent: {}
+[20.121642] (gz-waves1) StdoutLine: {'line': b'-- Looking for GzOGRE - found\n'}
+[20.121849] (gz-waves1) StdoutLine: {'line': b'\n'}
+[20.138442] (gz-waves1) StdoutLine: {'line': b'-- Looking for OGRE using the name: OGRE2\n'}
+[20.204470] (-) TimerEvent: {}
+[20.304998] (-) TimerEvent: {}
+[20.349920] (gz-waves1) StdoutLine: {'line': b'--   + component HlmsPbs: found\n'}
+[20.405174] (-) TimerEvent: {}
+[20.495671] (gz-waves1) StdoutLine: {'line': b'--   + component HlmsUnlit: found\n'}
+[20.505460] (-) TimerEvent: {}
+[20.605900] (-) TimerEvent: {}
+[20.643549] (gz-waves1) StdoutLine: {'line': b'--   + component Overlay: found\n'}
+[20.706135] (-) TimerEvent: {}
+[20.793759] (gz-waves1) StdoutLine: {'line': b'--   + component PlanarReflections: found\n'}
+[20.794729] (gz-waves1) StdoutLine: {'line': b'-- Looking for GzOGRE2 - found\n'}
+[20.795004] (gz-waves1) StdoutLine: {'line': b'\n'}
+[20.806634] (-) TimerEvent: {}
+[20.806949] (gz-waves1) StdoutLine: {'line': b'-- Using header-only CGAL\n'}
+[20.811202] (gz-waves1) StdoutLine: {'line': b'-- Targetting Unix Makefiles\n'}
+[20.811405] (gz-waves1) StdoutLine: {'line': b'-- Using /usr/bin/c++ compiler.\n'}
+[20.906817] (-) TimerEvent: {}
+[21.007309] (-) TimerEvent: {}
+[21.107813] (-) TimerEvent: {}
+[21.208274] (-) TimerEvent: {}
+[21.227531] (gz-waves1) StdoutLine: {'line': b'-- Found GMP: /usr/lib/x86_64-linux-gnu/libgmp.so  \n'}
+[21.308472] (-) TimerEvent: {}
+[21.409057] (-) TimerEvent: {}
+[21.412862] (gz-waves1) StdoutLine: {'line': b'-- Found MPFR: /usr/lib/x86_64-linux-gnu/libmpfr.so  \n'}
+[21.509376] (-) TimerEvent: {}
+[21.576622] (gz-waves1) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.48")  \n'}
+[21.577484] (gz-waves1) StdoutLine: {'line': b'-- Boost include dirs: /usr/include\n'}
+[21.577759] (gz-waves1) StdoutLine: {'line': b'-- Boost libraries:    \n'}
+[21.579853] (gz-waves1) StdoutLine: {'line': b'-- Using gcc version 4 or later. Adding -frounding-math\n'}
+[21.582019] (gz-waves1) StderrLine: {'line': b'\x1b[0mCGAL_VERSION_MAJOR: 5\x1b[0m\n'}
+[21.582398] (gz-waves1) StdoutLine: {'line': b'-- CGAL_USE_FILE: /usr/lib/x86_64-linux-gnu/cmake/CGAL/UseCGAL.cmake\n'}
+[21.586226] (gz-waves1) StdoutLine: {'line': b'-- Build type: RelWithDebInfo\n'}
+[21.586426] (gz-waves1) StdoutLine: {'line': b"-- USING CXXFLAGS = ' -O2 -g -DNDEBUG'\n"}
+[21.586661] (gz-waves1) StdoutLine: {'line': b"-- USING EXEFLAGS = ' '\n"}
+[21.587682] (gz-waves1) StdoutLine: {'line': b'-- Requested component: Core\n'}
+[21.609556] (-) TimerEvent: {}
+[21.710039] (-) TimerEvent: {}
+[21.810512] (-) TimerEvent: {}
+[21.910997] (-) TimerEvent: {}
+[22.011530] (-) TimerEvent: {}
+[22.112027] (-) TimerEvent: {}
+[22.212455] (-) TimerEvent: {}
+[22.312961] (-) TimerEvent: {}
+[22.413583] (-) TimerEvent: {}
+[22.514170] (-) TimerEvent: {}
+[22.614701] (-) TimerEvent: {}
+[22.715159] (-) TimerEvent: {}
+[22.815585] (-) TimerEvent: {}
+[22.916037] (-) TimerEvent: {}
+[23.016576] (-) TimerEvent: {}
+[23.117127] (-) TimerEvent: {}
+[23.217677] (-) TimerEvent: {}
+[23.318253] (-) TimerEvent: {}
+[23.418778] (-) TimerEvent: {}
+[23.519248] (-) TimerEvent: {}
+[23.620116] (-) TimerEvent: {}
+[23.720654] (-) TimerEvent: {}
+[23.821148] (-) TimerEvent: {}
+[23.921695] (-) TimerEvent: {}
+[24.022242] (-) TimerEvent: {}
+[24.122868] (-) TimerEvent: {}
+[24.223273] (-) TimerEvent: {}
+[24.323776] (-) TimerEvent: {}
+[24.424247] (-) TimerEvent: {}
+[24.524731] (-) TimerEvent: {}
+[24.625289] (-) TimerEvent: {}
+[24.725891] (-) TimerEvent: {}
+[24.746375] (gz-waves1) StdoutLine: {'line': b'-- \n'}
+[24.746583] (gz-waves1) StdoutLine: {'line': b'-- Searching for host SSE information\n'}
+[24.782581] (gz-waves1) StdoutLine: {'line': b'-- SSE2 found\n'}
+[24.782858] (gz-waves1) StdoutLine: {'line': b'-- SSE3 found\n'}
+[24.782964] (gz-waves1) StdoutLine: {'line': b'-- SSE4.1 found\n'}
+[24.783103] (gz-waves1) StdoutLine: {'line': b'-- SSE4.2 found\n'}
+[24.811082] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-dynamic-geometry-system\n'}
+[24.815763] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY\n'}
+[24.826074] (-) TimerEvent: {}
+[24.926579] (-) TimerEvent: {}
+[24.982804] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success\n'}
+[24.984262] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY\n'}
+[25.026757] (-) TimerEvent: {}
+[25.127228] (-) TimerEvent: {}
+[25.172703] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success\n'}
+[25.173326] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR\n'}
+[25.227402] (-) TimerEvent: {}
+[25.327909] (-) TimerEvent: {}
+[25.358338] (gz-waves1) StdoutLine: {'line': b'-- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success\n'}
+[25.376785] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-hydrodynamics-system\n'}
+[25.383800] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-rendering\n'}
+[25.389588] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-rendering-ogre2\n'}
+[25.396006] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-waves-visual-system\n'}
+[25.401294] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1-waves-model-system\n'}
+[25.407540] (gz-waves1) StdoutLine: {'line': b'-- Configuring library: gz-waves1\n'}
+[25.414824] (gz-waves1) StdoutLine: {'line': b'-- Adding 13 UNIT tests\n'}
+[25.428069] (-) TimerEvent: {}
+[25.528571] (-) TimerEvent: {}
+[25.629283] (-) TimerEvent: {}
+[25.688590] (gz-waves1) StdoutLine: {'line': b'-- Adding 7 PERFORMANCE tests\n'}
+[25.729544] (-) TimerEvent: {}
+[25.797634] (gz-waves1) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: iostreams \n'}
+[25.829781] (-) TimerEvent: {}
+[25.903887] (gz-waves1) StdoutLine: {'line': b'-- Adding codecheck target\n'}
+[25.904254] (gz-waves1) StdoutLine: {'line': b'-- Build configuration successful\n'}
+[25.905107] (gz-waves1) StdoutLine: {'line': b'-- Build type: RelWithDebInfo\n'}
+[25.905243] (gz-waves1) StdoutLine: {'line': b'-- Install prefix: /home/andy/gz_ws/install\n'}
+[25.906159] (gz-waves1) StdoutLine: {'line': b'-- Configuring done\n'}
+[25.929995] (-) TimerEvent: {}
+[26.030588] (-) TimerEvent: {}
+[26.110626] (gz-waves1) StdoutLine: {'line': b'-- Generating done\n'}
+[26.130839] (-) TimerEvent: {}
+[26.166648] (gz-waves1) StdoutLine: {'line': b'-- Build files have been written to: /home/andy/gz_ws/build/gz-waves1\n'}
+[26.198240] (gz-waves1) CommandEnded: {'returncode': 0}
+[26.199142] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'build'}
+[26.199234] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andy/gz_ws/build/gz-waves1', '--', '-j8', '-l8'], 'cwd': '/home/andy/gz_ws/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/andy/gz_ws/install/lib:gz_ws/install/lib:/home/andy/gz_ws/src/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build:asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worldsexport:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds'), ('USER', 'andy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andy/gz_ws/src/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/andy'), ('OLDPWD', '/home/andy/gz_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andy'), ('NAME', 'DESKTOP-MMOFPK5'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/andy/gz_ws/src/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andy/gz_ws/src/install/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/mnt/c/PROGRA~1/JPKI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/andyc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/andyc/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('GZ_IP', '127.0.0.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('PWD', '/home/andy/gz_ws/build/gz-waves1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('WSLENV', '')]), 'shell': False}
+[26.231261] (-) TimerEvent: {}
+[26.256765] (gz-waves1) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object test/gtest_vendor/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[26.257949] (gz-waves1) StdoutLine: {'line': b'[  2%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Algorithm.cc.o\x1b[0m\n'}
+[26.265130] (gz-waves1) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Convert.cc.o\x1b[0m\n'}
+[26.270523] (gz-waves1) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Grid.cc.o\x1b[0m\n'}
+[26.270735] (gz-waves1) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Geometry.cc.o\x1b[0m\n'}
+[26.270821] (gz-waves1) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/MeshTools.cc.o\x1b[0m\n'}
+[26.284443] (gz-waves1) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/OceanTile.cc.o\x1b[0m\n'}
+[26.315095] (gz-waves1) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/PhysicalConstants.cc.o\x1b[0m\n'}
+[26.335061] (-) TimerEvent: {}
+[26.381072] (gz-waves1) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Physics.cc.o\x1b[0m\n'}
+[26.435203] (-) TimerEvent: {}
+[26.535625] (-) TimerEvent: {}
+[26.636001] (-) TimerEvent: {}
+[26.691194] (gz-waves1) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/SubMeshWithTangents.cc.o\x1b[0m\n'}
+[26.736175] (-) TimerEvent: {}
+[26.836592] (-) TimerEvent: {}
+[26.936983] (-) TimerEvent: {}
+[27.037357] (-) TimerEvent: {}
+[27.137762] (-) TimerEvent: {}
+[27.238228] (-) TimerEvent: {}
+[27.338744] (-) TimerEvent: {}
+[27.439221] (-) TimerEvent: {}
+[27.539649] (-) TimerEvent: {}
+[27.640048] (-) TimerEvent: {}
+[27.740438] (-) TimerEvent: {}
+[27.840866] (-) TimerEvent: {}
+[27.941358] (-) TimerEvent: {}
+[28.041776] (-) TimerEvent: {}
+[28.142400] (-) TimerEvent: {}
+[28.242769] (-) TimerEvent: {}
+[28.343163] (-) TimerEvent: {}
+[28.423090] (gz-waves1) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TriangulatedGrid.cc.o\x1b[0m\n'}
+[28.443311] (-) TimerEvent: {}
+[28.544185] (-) TimerEvent: {}
+[28.644559] (-) TimerEvent: {}
+[28.745359] (-) TimerEvent: {}
+[28.846767] (-) TimerEvent: {}
+[28.947189] (-) TimerEvent: {}
+[29.047621] (-) TimerEvent: {}
+[29.148042] (-) TimerEvent: {}
+[29.248442] (-) TimerEvent: {}
+[29.348887] (-) TimerEvent: {}
+[29.449339] (-) TimerEvent: {}
+[29.549730] (-) TimerEvent: {}
+[29.650146] (-) TimerEvent: {}
+[29.750584] (-) TimerEvent: {}
+[29.851263] (-) TimerEvent: {}
+[29.951679] (-) TimerEvent: {}
+[30.052076] (-) TimerEvent: {}
+[30.152487] (-) TimerEvent: {}
+[30.252886] (-) TimerEvent: {}
+[30.353265] (-) TimerEvent: {}
+[30.453662] (-) TimerEvent: {}
+[30.554106] (-) TimerEvent: {}
+[30.654574] (-) TimerEvent: {}
+[30.755232] (-) TimerEvent: {}
+[30.855618] (-) TimerEvent: {}
+[30.956009] (-) TimerEvent: {}
+[31.056410] (-) TimerEvent: {}
+[31.156867] (-) TimerEvent: {}
+[31.257275] (-) TimerEvent: {}
+[31.357769] (-) TimerEvent: {}
+[31.458236] (-) TimerEvent: {}
+[31.558710] (-) TimerEvent: {}
+[31.659085] (-) TimerEvent: {}
+[31.762848] (-) TimerEvent: {}
+[31.863244] (-) TimerEvent: {}
+[31.963702] (-) TimerEvent: {}
+[32.064074] (-) TimerEvent: {}
+[32.164486] (-) TimerEvent: {}
+[32.264941] (-) TimerEvent: {}
+[32.365364] (-) TimerEvent: {}
+[32.465794] (-) TimerEvent: {}
+[32.566246] (-) TimerEvent: {}
+[32.666651] (-) TimerEvent: {}
+[32.767138] (-) TimerEvent: {}
+[32.867581] (-) TimerEvent: {}
+[32.968014] (-) TimerEvent: {}
+[33.068434] (-) TimerEvent: {}
+[33.168797] (-) TimerEvent: {}
+[33.269273] (-) TimerEvent: {}
+[33.371269] (-) TimerEvent: {}
+[33.471685] (-) TimerEvent: {}
+[33.572353] (-) TimerEvent: {}
+[33.672740] (-) TimerEvent: {}
+[33.773208] (-) TimerEvent: {}
+[33.873763] (-) TimerEvent: {}
+[33.974373] (-) TimerEvent: {}
+[34.074965] (-) TimerEvent: {}
+[34.175534] (-) TimerEvent: {}
+[34.276009] (-) TimerEvent: {}
+[34.377328] (-) TimerEvent: {}
+[34.440104] (gz-waves1) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Utilities.cc.o\x1b[0m\n'}
+[34.477470] (-) TimerEvent: {}
+[34.577938] (-) TimerEvent: {}
+[34.678315] (-) TimerEvent: {}
+[34.778827] (-) TimerEvent: {}
+[34.879274] (-) TimerEvent: {}
+[34.979845] (-) TimerEvent: {}
+[35.080344] (-) TimerEvent: {}
+[35.180782] (-) TimerEvent: {}
+[35.281275] (-) TimerEvent: {}
+[35.381751] (-) TimerEvent: {}
+[35.482283] (-) TimerEvent: {}
+[35.582765] (-) TimerEvent: {}
+[35.683305] (-) TimerEvent: {}
+[35.783824] (-) TimerEvent: {}
+[35.884274] (-) TimerEvent: {}
+[35.894518] (gz-waves1) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/Wavefield.cc.o\x1b[0m\n'}
+[35.984420] (-) TimerEvent: {}
+[36.084797] (-) TimerEvent: {}
+[36.185175] (-) TimerEvent: {}
+[36.285615] (-) TimerEvent: {}
+[36.386015] (-) TimerEvent: {}
+[36.486375] (-) TimerEvent: {}
+[36.586744] (-) TimerEvent: {}
+[36.687110] (-) TimerEvent: {}
+[36.787486] (-) TimerEvent: {}
+[36.887873] (-) TimerEvent: {}
+[36.988253] (-) TimerEvent: {}
+[37.088640] (-) TimerEvent: {}
+[37.189013] (-) TimerEvent: {}
+[37.289395] (-) TimerEvent: {}
+[37.389759] (-) TimerEvent: {}
+[37.490172] (-) TimerEvent: {}
+[37.590543] (-) TimerEvent: {}
+[37.690916] (-) TimerEvent: {}
+[37.791295] (-) TimerEvent: {}
+[37.891751] (-) TimerEvent: {}
+[37.992130] (-) TimerEvent: {}
+[38.092489] (-) TimerEvent: {}
+[38.192860] (-) TimerEvent: {}
+[38.293241] (-) TimerEvent: {}
+[38.296696] (gz-waves1) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WavefieldSampler.cc.o\x1b[0m\n'}
+[38.393387] (-) TimerEvent: {}
+[38.493809] (-) TimerEvent: {}
+[38.594227] (-) TimerEvent: {}
+[38.682999] (gz-waves1) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveParameters.cc.o\x1b[0m\n'}
+[38.694371] (-) TimerEvent: {}
+[38.794735] (-) TimerEvent: {}
+[38.895112] (-) TimerEvent: {}
+[38.995517] (-) TimerEvent: {}
+[39.095880] (-) TimerEvent: {}
+[39.196262] (-) TimerEvent: {}
+[39.296630] (-) TimerEvent: {}
+[39.396993] (-) TimerEvent: {}
+[39.497370] (-) TimerEvent: {}
+[39.597769] (-) TimerEvent: {}
+[39.698130] (-) TimerEvent: {}
+[39.798511] (-) TimerEvent: {}
+[39.898875] (-) TimerEvent: {}
+[39.999258] (-) TimerEvent: {}
+[40.099636] (-) TimerEvent: {}
+[40.200020] (-) TimerEvent: {}
+[40.300404] (-) TimerEvent: {}
+[40.400805] (-) TimerEvent: {}
+[40.501185] (-) TimerEvent: {}
+[40.601560] (-) TimerEvent: {}
+[40.701946] (-) TimerEvent: {}
+[40.802302] (-) TimerEvent: {}
+[40.902683] (-) TimerEvent: {}
+[41.003025] (-) TimerEvent: {}
+[41.103400] (-) TimerEvent: {}
+[41.203760] (-) TimerEvent: {}
+[41.304120] (-) TimerEvent: {}
+[41.404483] (-) TimerEvent: {}
+[41.504849] (-) TimerEvent: {}
+[41.605212] (-) TimerEvent: {}
+[41.705577] (-) TimerEvent: {}
+[41.805972] (-) TimerEvent: {}
+[41.906382] (-) TimerEvent: {}
+[42.006788] (-) TimerEvent: {}
+[42.107236] (-) TimerEvent: {}
+[42.207660] (-) TimerEvent: {}
+[42.281025] (gz-waves1) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking CXX static library ../../lib/libgtest.a\x1b[0m\n'}
+[42.309768] (-) TimerEvent: {}
+[42.410131] (-) TimerEvent: {}
+[42.457114] (gz-waves1) StdoutLine: {'line': b'[ 16%] Built target gtest\n'}
+[42.475318] (gz-waves1) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object test/gtest_vendor/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[42.510276] (-) TimerEvent: {}
+[42.610653] (-) TimerEvent: {}
+[42.711023] (-) TimerEvent: {}
+[42.811448] (-) TimerEvent: {}
+[42.911838] (-) TimerEvent: {}
+[43.012217] (-) TimerEvent: {}
+[43.112598] (-) TimerEvent: {}
+[43.212972] (-) TimerEvent: {}
+[43.313354] (-) TimerEvent: {}
+[43.335023] (gz-waves1) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSimulation.cc.o\x1b[0m\n'}
+[43.413549] (-) TimerEvent: {}
+[43.513929] (-) TimerEvent: {}
+[43.614307] (-) TimerEvent: {}
+[43.631257] (gz-waves1) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking CXX static library ../../lib/libgtest_main.a\x1b[0m\n'}
+[43.662919] (gz-waves1) StdoutLine: {'line': b'[ 19%] Built target gtest_main\n'}
+[43.671108] (gz-waves1) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulation.cc.o\x1b[0m\n'}
+[43.714532] (-) TimerEvent: {}
+[43.814932] (-) TimerEvent: {}
+[43.915309] (-) TimerEvent: {}
+[44.015689] (-) TimerEvent: {}
+[44.116047] (-) TimerEvent: {}
+[44.216426] (-) TimerEvent: {}
+[44.316798] (-) TimerEvent: {}
+[44.417224] (-) TimerEvent: {}
+[44.517598] (-) TimerEvent: {}
+[44.617961] (-) TimerEvent: {}
+[44.656514] (gz-waves1) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomFFTWaveSimulationRef.cc.o\x1b[0m\n'}
+[44.718118] (-) TimerEvent: {}
+[44.818590] (-) TimerEvent: {}
+[44.911167] (gz-waves1) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRandomWaveSimulation.cc.o\x1b[0m\n'}
+[44.918718] (-) TimerEvent: {}
+[45.019105] (-) TimerEvent: {}
+[45.132767] (-) TimerEvent: {}
+[45.233161] (-) TimerEvent: {}
+[45.333581] (-) TimerEvent: {}
+[45.433961] (-) TimerEvent: {}
+[45.534406] (-) TimerEvent: {}
+[45.634965] (-) TimerEvent: {}
+[45.738393] (-) TimerEvent: {}
+[45.838917] (-) TimerEvent: {}
+[45.939292] (-) TimerEvent: {}
+[46.041395] (-) TimerEvent: {}
+[46.141777] (-) TimerEvent: {}
+[46.242175] (-) TimerEvent: {}
+[46.342574] (-) TimerEvent: {}
+[46.442963] (-) TimerEvent: {}
+[46.543353] (-) TimerEvent: {}
+[46.643786] (-) TimerEvent: {}
+[46.744170] (-) TimerEvent: {}
+[46.844538] (-) TimerEvent: {}
+[46.944927] (-) TimerEvent: {}
+[47.045308] (-) TimerEvent: {}
+[47.145668] (-) TimerEvent: {}
+[47.246066] (-) TimerEvent: {}
+[47.346484] (-) TimerEvent: {}
+[47.446878] (-) TimerEvent: {}
+[47.547262] (-) TimerEvent: {}
+[47.647606] (-) TimerEvent: {}
+[47.747967] (-) TimerEvent: {}
+[47.848322] (-) TimerEvent: {}
+[47.935109] (gz-waves1) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/LinearRegularWaveSimulation.cc.o\x1b[0m\n'}
+[47.948478] (-) TimerEvent: {}
+[48.048846] (-) TimerEvent: {}
+[48.149220] (-) TimerEvent: {}
+[48.249618] (-) TimerEvent: {}
+[48.349997] (-) TimerEvent: {}
+[48.428221] (gz-waves1) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/TrochoidIrregularWaveSimulation.cc.o\x1b[0m\n'}
+[48.450161] (-) TimerEvent: {}
+[48.550560] (-) TimerEvent: {}
+[48.650925] (-) TimerEvent: {}
+[48.689673] (gz-waves1) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpectrum.cc.o\x1b[0m\n'}
+[48.751078] (-) TimerEvent: {}
+[48.851468] (-) TimerEvent: {}
+[48.900342] (gz-waves1) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object src/CMakeFiles/gz-waves1.dir/WaveSpreadingFunction.cc.o\x1b[0m\n'}
+[48.951629] (-) TimerEvent: {}
+[49.052010] (-) TimerEvent: {}
+[49.152392] (-) TimerEvent: {}
+[49.252770] (-) TimerEvent: {}
+[49.353132] (-) TimerEvent: {}
+[49.453501] (-) TimerEvent: {}
+[49.553976] (-) TimerEvent: {}
+[49.654366] (-) TimerEvent: {}
+[49.754852] (-) TimerEvent: {}
+[49.855238] (-) TimerEvent: {}
+[49.955730] (-) TimerEvent: {}
+[50.056143] (-) TimerEvent: {}
+[50.156519] (-) TimerEvent: {}
+[50.256963] (-) TimerEvent: {}
+[50.357514] (-) TimerEvent: {}
+[50.458046] (-) TimerEvent: {}
+[50.558587] (-) TimerEvent: {}
+[50.659176] (-) TimerEvent: {}
+[50.759780] (-) TimerEvent: {}
+[50.860342] (-) TimerEvent: {}
+[50.960850] (-) TimerEvent: {}
+[51.061401] (-) TimerEvent: {}
+[51.161987] (-) TimerEvent: {}
+[51.262472] (-) TimerEvent: {}
+[51.362840] (-) TimerEvent: {}
+[51.463354] (-) TimerEvent: {}
+[51.563709] (-) TimerEvent: {}
+[51.664216] (-) TimerEvent: {}
+[51.764833] (-) TimerEvent: {}
+[51.865724] (-) TimerEvent: {}
+[52.022923] (-) TimerEvent: {}
+[52.123781] (-) TimerEvent: {}
+[52.224615] (-) TimerEvent: {}
+[52.325069] (-) TimerEvent: {}
+[52.425566] (-) TimerEvent: {}
+[52.526015] (-) TimerEvent: {}
+[52.626386] (-) TimerEvent: {}
+[52.726760] (-) TimerEvent: {}
+[52.827145] (-) TimerEvent: {}
+[52.927526] (-) TimerEvent: {}
+[53.027955] (-) TimerEvent: {}
+[53.128406] (-) TimerEvent: {}
+[53.228951] (-) TimerEvent: {}
+[53.329409] (-) TimerEvent: {}
+[53.429802] (-) TimerEvent: {}
+[53.530187] (-) TimerEvent: {}
+[53.630639] (-) TimerEvent: {}
+[53.731220] (-) TimerEvent: {}
+[53.831700] (-) TimerEvent: {}
+[53.932130] (-) TimerEvent: {}
+[54.032752] (-) TimerEvent: {}
+[54.133253] (-) TimerEvent: {}
+[54.233672] (-) TimerEvent: {}
+[54.334189] (-) TimerEvent: {}
+[54.434789] (-) TimerEvent: {}
+[54.535257] (-) TimerEvent: {}
+[54.635653] (-) TimerEvent: {}
+[54.736210] (-) TimerEvent: {}
+[54.836636] (-) TimerEvent: {}
+[54.937126] (-) TimerEvent: {}
+[55.037517] (-) TimerEvent: {}
+[55.137890] (-) TimerEvent: {}
+[55.238328] (-) TimerEvent: {}
+[55.338704] (-) TimerEvent: {}
+[55.439069] (-) TimerEvent: {}
+[55.539488] (-) TimerEvent: {}
+[55.640007] (-) TimerEvent: {}
+[55.740514] (-) TimerEvent: {}
+[55.842907] (-) TimerEvent: {}
+[55.943305] (-) TimerEvent: {}
+[56.043947] (-) TimerEvent: {}
+[56.144494] (-) TimerEvent: {}
+[56.244965] (-) TimerEvent: {}
+[56.345355] (-) TimerEvent: {}
+[56.446120] (-) TimerEvent: {}
+[56.546561] (-) TimerEvent: {}
+[56.646943] (-) TimerEvent: {}
+[56.747374] (-) TimerEvent: {}
+[56.847898] (-) TimerEvent: {}
+[56.948338] (-) TimerEvent: {}
+[57.048788] (-) TimerEvent: {}
+[57.149305] (-) TimerEvent: {}
+[57.249818] (-) TimerEvent: {}
+[57.350338] (-) TimerEvent: {}
+[57.450851] (-) TimerEvent: {}
+[57.551356] (-) TimerEvent: {}
+[57.651880] (-) TimerEvent: {}
+[57.752366] (-) TimerEvent: {}
+[57.852896] (-) TimerEvent: {}
+[57.953331] (-) TimerEvent: {}
+[58.053758] (-) TimerEvent: {}
+[58.154286] (-) TimerEvent: {}
+[58.254787] (-) TimerEvent: {}
+[58.355226] (-) TimerEvent: {}
+[58.455855] (-) TimerEvent: {}
+[58.556385] (-) TimerEvent: {}
+[58.656880] (-) TimerEvent: {}
+[58.757380] (-) TimerEvent: {}
+[58.857762] (-) TimerEvent: {}
+[58.958194] (-) TimerEvent: {}
+[59.058647] (-) TimerEvent: {}
+[59.139589] (gz-waves1) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library ../lib/libgz-waves1.so\x1b[0m\n'}
+[59.158795] (-) TimerEvent: {}
+[59.259277] (-) TimerEvent: {}
+[59.359902] (-) TimerEvent: {}
+[59.460502] (-) TimerEvent: {}
+[59.561030] (-) TimerEvent: {}
+[59.661605] (-) TimerEvent: {}
+[59.748565] (gz-waves1) StdoutLine: {'line': b'[ 26%] Built target gz-waves1\n'}
+[59.761761] (-) TimerEvent: {}
+[59.769619] (gz-waves1) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_Algorithm_TEST.dir/Algorithm_TEST.cc.o\x1b[0m\n'}
+[59.770544] (gz-waves1) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_Geometry_TEST.dir/Geometry_TEST.cc.o\x1b[0m\n'}
+[59.774404] (gz-waves1) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_LinearRegularWaveSimulation_TEST.dir/LinearRegularWaveSimulation_TEST.cc.o\x1b[0m\n'}
+[59.774615] (gz-waves1) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_LinearRandomFFTWaveSimulation_TEST.dir/LinearRandomFFTWaveSimulation_TEST.cc.o\x1b[0m\n'}
+[59.782541] (gz-waves1) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_EigenFFTW_TEST.dir/EigenFFTW_TEST.cc.o\x1b[0m\n'}
+[59.785067] (gz-waves1) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_CGAL_TEST.dir/CGAL_TEST.cc.o\x1b[0m\n'}
+[59.802841] (gz-waves1) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_Grid_TEST.dir/Grid_TEST.cc.o\x1b[0m\n'}
+[59.803070] (gz-waves1) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_MeshTools_TEST.dir/MeshTools_TEST.cc.o\x1b[0m\n'}
+[59.861904] (-) TimerEvent: {}
+[59.962309] (-) TimerEvent: {}
+[60.062783] (-) TimerEvent: {}
+[60.165443] (-) TimerEvent: {}
+[60.266649] (-) TimerEvent: {}
+[60.367029] (-) TimerEvent: {}
+[60.467453] (-) TimerEvent: {}
+[60.567858] (-) TimerEvent: {}
+[60.668614] (-) TimerEvent: {}
+[60.768997] (-) TimerEvent: {}
+[60.869490] (-) TimerEvent: {}
+[60.969931] (-) TimerEvent: {}
+[61.070350] (-) TimerEvent: {}
+[61.170733] (-) TimerEvent: {}
+[61.271498] (-) TimerEvent: {}
+[61.372188] (-) TimerEvent: {}
+[61.472608] (-) TimerEvent: {}
+[61.573364] (-) TimerEvent: {}
+[61.673801] (-) TimerEvent: {}
+[61.774187] (-) TimerEvent: {}
+[61.875511] (-) TimerEvent: {}
+[61.978486] (-) TimerEvent: {}
+[62.078853] (-) TimerEvent: {}
+[62.179235] (-) TimerEvent: {}
+[62.279629] (-) TimerEvent: {}
+[62.380025] (-) TimerEvent: {}
+[62.480399] (-) TimerEvent: {}
+[62.580747] (-) TimerEvent: {}
+[62.637708] (gz-waves1) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_Algorithm_TEST\x1b[0m\n'}
+[62.680913] (-) TimerEvent: {}
+[62.781446] (-) TimerEvent: {}
+[62.881847] (-) TimerEvent: {}
+[62.982296] (-) TimerEvent: {}
+[63.019718] (gz-waves1) StdoutLine: {'line': b'[ 34%] Built target UNIT_Algorithm_TEST\n'}
+[63.047331] (gz-waves1) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_Physics_TEST.dir/Physics_TEST.cc.o\x1b[0m\n'}
+[63.082694] (-) TimerEvent: {}
+[63.183075] (-) TimerEvent: {}
+[63.283446] (-) TimerEvent: {}
+[63.299625] (gz-waves1) StdoutLine: {'line': b'[ 36%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_EigenFFTW_TEST\x1b[0m\n'}
+[63.383606] (-) TimerEvent: {}
+[63.484161] (-) TimerEvent: {}
+[63.584532] (-) TimerEvent: {}
+[63.660356] (gz-waves1) StdoutLine: {'line': b'[ 36%] Built target UNIT_EigenFFTW_TEST\n'}
+[63.679450] (gz-waves1) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_TriangulatedGrid_TEST.dir/TriangulatedGrid_TEST.cc.o\x1b[0m\n'}
+[63.684748] (-) TimerEvent: {}
+[63.786328] (-) TimerEvent: {}
+[63.886714] (-) TimerEvent: {}
+[63.987094] (-) TimerEvent: {}
+[64.087460] (-) TimerEvent: {}
+[64.187823] (-) TimerEvent: {}
+[64.288190] (-) TimerEvent: {}
+[64.388566] (-) TimerEvent: {}
+[64.488943] (-) TimerEvent: {}
+[64.589305] (-) TimerEvent: {}
+[64.689948] (-) TimerEvent: {}
+[64.790335] (-) TimerEvent: {}
+[64.890716] (-) TimerEvent: {}
+[64.991087] (-) TimerEvent: {}
+[65.091467] (-) TimerEvent: {}
+[65.191848] (-) TimerEvent: {}
+[65.292323] (-) TimerEvent: {}
+[65.392782] (-) TimerEvent: {}
+[65.493123] (-) TimerEvent: {}
+[65.593478] (-) TimerEvent: {}
+[65.693898] (-) TimerEvent: {}
+[65.794248] (-) TimerEvent: {}
+[65.894614] (-) TimerEvent: {}
+[65.994997] (-) TimerEvent: {}
+[66.095367] (-) TimerEvent: {}
+[66.195753] (-) TimerEvent: {}
+[66.235083] (gz-waves1) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_LinearRandomFFTWaveSimulation_TEST\x1b[0m\n'}
+[66.295905] (-) TimerEvent: {}
+[66.396339] (-) TimerEvent: {}
+[66.496792] (-) TimerEvent: {}
+[66.597226] (-) TimerEvent: {}
+[66.697587] (-) TimerEvent: {}
+[66.721492] (gz-waves1) StdoutLine: {'line': b'[ 38%] Built target UNIT_LinearRandomFFTWaveSimulation_TEST\n'}
+[66.740267] (gz-waves1) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_Wavefield_TEST.dir/Wavefield_TEST.cc.o\x1b[0m\n'}
+[66.797747] (-) TimerEvent: {}
+[66.898110] (-) TimerEvent: {}
+[66.998482] (-) TimerEvent: {}
+[67.098904] (-) TimerEvent: {}
+[67.199277] (-) TimerEvent: {}
+[67.299645] (-) TimerEvent: {}
+[67.400004] (-) TimerEvent: {}
+[67.500377] (-) TimerEvent: {}
+[67.600771] (-) TimerEvent: {}
+[67.701147] (-) TimerEvent: {}
+[67.801519] (-) TimerEvent: {}
+[67.901890] (-) TimerEvent: {}
+[68.002244] (-) TimerEvent: {}
+[68.102612] (-) TimerEvent: {}
+[68.202974] (-) TimerEvent: {}
+[68.303341] (-) TimerEvent: {}
+[68.403704] (-) TimerEvent: {}
+[68.504067] (-) TimerEvent: {}
+[68.604436] (-) TimerEvent: {}
+[68.704812] (-) TimerEvent: {}
+[68.805211] (-) TimerEvent: {}
+[68.905592] (-) TimerEvent: {}
+[69.006013] (-) TimerEvent: {}
+[69.106402] (-) TimerEvent: {}
+[69.206765] (-) TimerEvent: {}
+[69.307141] (-) TimerEvent: {}
+[69.407533] (-) TimerEvent: {}
+[69.507914] (-) TimerEvent: {}
+[69.608281] (-) TimerEvent: {}
+[69.708658] (-) TimerEvent: {}
+[69.809030] (-) TimerEvent: {}
+[69.909436] (-) TimerEvent: {}
+[70.011024] (-) TimerEvent: {}
+[70.111411] (-) TimerEvent: {}
+[70.211767] (-) TimerEvent: {}
+[70.312129] (-) TimerEvent: {}
+[70.412587] (-) TimerEvent: {}
+[70.512958] (-) TimerEvent: {}
+[70.593689] (gz-waves1) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_Grid_TEST\x1b[0m\n'}
+[70.613085] (-) TimerEvent: {}
+[70.713447] (-) TimerEvent: {}
+[70.813867] (-) TimerEvent: {}
+[70.914241] (-) TimerEvent: {}
+[71.014611] (-) TimerEvent: {}
+[71.114983] (-) TimerEvent: {}
+[71.116942] (gz-waves1) StdoutLine: {'line': b'[ 40%] Built target UNIT_Grid_TEST\n'}
+[71.138978] (gz-waves1) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_WaveSpectrum_TEST.dir/WaveSpectrum_TEST.cc.o\x1b[0m\n'}
+[71.215139] (-) TimerEvent: {}
+[71.315506] (-) TimerEvent: {}
+[71.415861] (-) TimerEvent: {}
+[71.516208] (-) TimerEvent: {}
+[71.616555] (-) TimerEvent: {}
+[71.716903] (-) TimerEvent: {}
+[71.817342] (-) TimerEvent: {}
+[71.917726] (-) TimerEvent: {}
+[72.018078] (-) TimerEvent: {}
+[72.118444] (-) TimerEvent: {}
+[72.218836] (-) TimerEvent: {}
+[72.319218] (-) TimerEvent: {}
+[72.419688] (-) TimerEvent: {}
+[72.520076] (-) TimerEvent: {}
+[72.620474] (-) TimerEvent: {}
+[72.626089] (gz-waves1) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_Geometry_TEST\x1b[0m\n'}
+[72.645418] (gz-waves1) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_TriangulatedGrid_TEST\x1b[0m\n'}
+[72.720677] (-) TimerEvent: {}
+[72.821086] (-) TimerEvent: {}
+[72.921474] (-) TimerEvent: {}
+[73.022707] (-) TimerEvent: {}
+[73.103246] (gz-waves1) StdoutLine: {'line': b'[ 44%] Built target UNIT_Geometry_TEST\n'}
+[73.122831] (-) TimerEvent: {}
+[73.123718] (gz-waves1) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object src/CMakeFiles/UNIT_WaveSpreadingFunction_TEST.dir/WaveSpreadingFunction_TEST.cc.o\x1b[0m\n'}
+[73.124006] (gz-waves1) StdoutLine: {'line': b'[ 45%] Built target UNIT_TriangulatedGrid_TEST\n'}
+[73.144289] (gz-waves1) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object src/systems/dynamic/CMakeFiles/gz-waves1-dynamic-geometry-system.dir/DynamicGeometry.cc.o\x1b[0m\n'}
+[73.222963] (-) TimerEvent: {}
+[73.323321] (-) TimerEvent: {}
+[73.423771] (-) TimerEvent: {}
+[73.524119] (-) TimerEvent: {}
+[73.624533] (-) TimerEvent: {}
+[73.728014] (-) TimerEvent: {}
+[73.828416] (-) TimerEvent: {}
+[73.928790] (-) TimerEvent: {}
+[74.029197] (-) TimerEvent: {}
+[74.129572] (-) TimerEvent: {}
+[74.229972] (-) TimerEvent: {}
+[74.331536] (-) TimerEvent: {}
+[74.433535] (-) TimerEvent: {}
+[74.533929] (-) TimerEvent: {}
+[74.634285] (-) TimerEvent: {}
+[74.737074] (-) TimerEvent: {}
+[74.840990] (-) TimerEvent: {}
+[74.941382] (-) TimerEvent: {}
+[75.041774] (-) TimerEvent: {}
+[75.143299] (-) TimerEvent: {}
+[75.246761] (-) TimerEvent: {}
+[75.347153] (-) TimerEvent: {}
+[75.447594] (-) TimerEvent: {}
+[75.548002] (-) TimerEvent: {}
+[75.573080] (gz-waves1) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_WaveSpectrum_TEST\x1b[0m\n'}
+[75.648169] (-) TimerEvent: {}
+[75.748594] (-) TimerEvent: {}
+[75.849019] (-) TimerEvent: {}
+[75.949398] (-) TimerEvent: {}
+[76.049849] (-) TimerEvent: {}
+[76.150254] (-) TimerEvent: {}
+[76.232120] (gz-waves1) StdoutLine: {'line': b'[ 47%] Built target UNIT_WaveSpectrum_TEST\n'}
+[76.250505] (-) TimerEvent: {}
+[76.262111] (gz-waves1) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Collision.cc.o\x1b[0m\n'}
+[76.350667] (-) TimerEvent: {}
+[76.451071] (-) TimerEvent: {}
+[76.551473] (-) TimerEvent: {}
+[76.651869] (-) TimerEvent: {}
+[76.752257] (-) TimerEvent: {}
+[76.852742] (-) TimerEvent: {}
+[76.953392] (-) TimerEvent: {}
+[77.053878] (-) TimerEvent: {}
+[77.154309] (-) TimerEvent: {}
+[77.254683] (-) TimerEvent: {}
+[77.355125] (-) TimerEvent: {}
+[77.459042] (-) TimerEvent: {}
+[77.559486] (-) TimerEvent: {}
+[77.659968] (-) TimerEvent: {}
+[77.760394] (-) TimerEvent: {}
+[77.860837] (-) TimerEvent: {}
+[77.955728] (gz-waves1) StdoutLine: {'line': b'[ 49%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_MeshTools_TEST\x1b[0m\n'}
+[77.957515] (gz-waves1) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_Wavefield_TEST\x1b[0m\n'}
+[77.960986] (-) TimerEvent: {}
+[78.061359] (-) TimerEvent: {}
+[78.161806] (-) TimerEvent: {}
+[78.256794] (gz-waves1) StdoutLine: {'line': b'[ 50%] Built target UNIT_Wavefield_TEST\n'}
+[78.261968] (-) TimerEvent: {}
+[78.278019] (gz-waves1) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/BaseRenderEngineExtension.cc.o\x1b[0m\n'}
+[78.362102] (-) TimerEvent: {}
+[78.461298] (gz-waves1) StdoutLine: {'line': b'[ 51%] Built target UNIT_MeshTools_TEST\n'}
+[78.462264] (-) TimerEvent: {}
+[78.482154] (gz-waves1) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-model-system.dir/WavesModel.cc.o\x1b[0m\n'}
+[78.562421] (-) TimerEvent: {}
+[78.662916] (-) TimerEvent: {}
+[78.763262] (-) TimerEvent: {}
+[78.863638] (-) TimerEvent: {}
+[78.960702] (gz-waves1) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_LinearRegularWaveSimulation_TEST\x1b[0m\n'}
+[78.963774] (-) TimerEvent: {}
+[79.064151] (-) TimerEvent: {}
+[79.166358] (-) TimerEvent: {}
+[79.266740] (-) TimerEvent: {}
+[79.367121] (-) TimerEvent: {}
+[79.448207] (gz-waves1) StdoutLine: {'line': b'[ 53%] Built target UNIT_LinearRegularWaveSimulation_TEST\n'}
+[79.467301] (-) TimerEvent: {}
+[79.471021] (gz-waves1) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_EigenReturnByValue.dir/EigenReturnByValue.cc.o\x1b[0m\n'}
+[79.567448] (-) TimerEvent: {}
+[79.667830] (-) TimerEvent: {}
+[79.768193] (-) TimerEvent: {}
+[79.868712] (-) TimerEvent: {}
+[79.969106] (-) TimerEvent: {}
+[80.069471] (-) TimerEvent: {}
+[80.169884] (-) TimerEvent: {}
+[80.270276] (-) TimerEvent: {}
+[80.317741] (gz-waves1) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_WaveSpreadingFunction_TEST\x1b[0m\n'}
+[80.370474] (-) TimerEvent: {}
+[80.470879] (-) TimerEvent: {}
+[80.571411] (-) TimerEvent: {}
+[80.672260] (-) TimerEvent: {}
+[80.772608] (-) TimerEvent: {}
+[80.837756] (gz-waves1) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_EigenReturnByValue\x1b[0m\n'}
+[80.872801] (-) TimerEvent: {}
+[80.887061] (gz-waves1) StdoutLine: {'line': b'[ 55%] Built target UNIT_WaveSpreadingFunction_TEST\n'}
+[80.909756] (gz-waves1) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes.dir/LinearRandomFFTWaveSimBaseAmplitudes.cc.o\x1b[0m\n'}
+[80.972928] (-) TimerEvent: {}
+[81.073288] (-) TimerEvent: {}
+[81.129159] (gz-waves1) StdoutLine: {'line': b'[ 56%] Built target PERFORMANCE_EigenReturnByValue\n'}
+[81.148392] (gz-waves1) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes.dir/LinearRandomFFTWaveSimCurrentAmplitudes.cc.o\x1b[0m\n'}
+[81.173420] (-) TimerEvent: {}
+[81.273837] (-) TimerEvent: {}
+[81.374207] (-) TimerEvent: {}
+[81.474592] (-) TimerEvent: {}
+[81.574948] (-) TimerEvent: {}
+[81.675338] (-) TimerEvent: {}
+[81.775726] (-) TimerEvent: {}
+[81.876125] (-) TimerEvent: {}
+[81.976504] (-) TimerEvent: {}
+[82.076852] (-) TimerEvent: {}
+[82.177282] (-) TimerEvent: {}
+[82.277642] (-) TimerEvent: {}
+[82.378016] (-) TimerEvent: {}
+[82.478415] (-) TimerEvent: {}
+[82.521618] (gz-waves1) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_Physics_TEST\x1b[0m\n'}
+[82.578560] (-) TimerEvent: {}
+[82.678967] (-) TimerEvent: {}
+[82.779370] (-) TimerEvent: {}
+[82.879749] (-) TimerEvent: {}
+[82.980134] (-) TimerEvent: {}
+[83.021442] (gz-waves1) StdoutLine: {'line': b'[ 59%] Built target UNIT_Physics_TEST\n'}
+[83.041762] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimDisplacements.dir/LinearRandomFFTWaveSimDisplacements.cc.o\x1b[0m\n'}
+[83.080290] (-) TimerEvent: {}
+[83.114712] (gz-waves1) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes\x1b[0m\n'}
+[83.180558] (-) TimerEvent: {}
+[83.280972] (-) TimerEvent: {}
+[83.381378] (-) TimerEvent: {}
+[83.481758] (-) TimerEvent: {}
+[83.482868] (gz-waves1) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes\x1b[0m\n'}
+[83.548538] (gz-waves1) StdoutLine: {'line': b'[ 61%] Built target PERFORMANCE_LinearRandomFFTWaveSimBaseAmplitudes\n'}
+[83.572915] (gz-waves1) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRandomFFTWaveSimElevationAt.dir/LinearRandomFFTWaveSimElevationAt.cc.o\x1b[0m\n'}
+[83.581949] (-) TimerEvent: {}
+[83.682365] (-) TimerEvent: {}
+[83.782749] (-) TimerEvent: {}
+[83.883090] (-) TimerEvent: {}
+[83.924373] (gz-waves1) StdoutLine: {'line': b'[ 62%] Built target PERFORMANCE_LinearRandomFFTWaveSimCurrentAmplitudes\n'}
+[83.943686] (gz-waves1) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_LinearRegularWaveSimDisplacements.dir/LinearRegularWaveSimDisplacements.cc.o\x1b[0m\n'}
+[83.983234] (-) TimerEvent: {}
+[84.083617] (-) TimerEvent: {}
+[84.184015] (-) TimerEvent: {}
+[84.284389] (-) TimerEvent: {}
+[84.384767] (-) TimerEvent: {}
+[84.487868] (-) TimerEvent: {}
+[84.588616] (-) TimerEvent: {}
+[84.694117] (-) TimerEvent: {}
+[84.795000] (-) TimerEvent: {}
+[84.896407] (-) TimerEvent: {}
+[84.996799] (-) TimerEvent: {}
+[85.080733] (gz-waves1) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object src/systems/hydrodynamics/CMakeFiles/gz-waves1-hydrodynamics-system.dir/Hydrodynamics.cc.o\x1b[0m\n'}
+[85.097829] (-) TimerEvent: {}
+[85.198192] (-) TimerEvent: {}
+[85.298539] (-) TimerEvent: {}
+[85.398905] (-) TimerEvent: {}
+[85.499278] (-) TimerEvent: {}
+[85.599634] (-) TimerEvent: {}
+[85.700005] (-) TimerEvent: {}
+[85.783720] (gz-waves1) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimDisplacements\x1b[0m\n'}
+[85.800157] (-) TimerEvent: {}
+[85.900574] (-) TimerEvent: {}
+[86.000946] (-) TimerEvent: {}
+[86.101317] (-) TimerEvent: {}
+[86.110486] (gz-waves1) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_LinearRandomFFTWaveSimElevationAt\x1b[0m\n'}
+[86.186766] (gz-waves1) StdoutLine: {'line': b'[ 65%] Built target PERFORMANCE_LinearRandomFFTWaveSimDisplacements\n'}
+[86.201475] (-) TimerEvent: {}
+[86.206661] (gz-waves1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/performance/CMakeFiles/PERFORMANCE_WaveSpectrumECKV.dir/WaveSpectrumECKV.cc.o\x1b[0m\n'}
+[86.301601] (-) TimerEvent: {}
+[86.401979] (-) TimerEvent: {}
+[86.502689] (-) TimerEvent: {}
+[86.581054] (gz-waves1) StdoutLine: {'line': b'[ 66%] Built target PERFORMANCE_LinearRandomFFTWaveSimElevationAt\n'}
+[86.602809] (-) TimerEvent: {}
+[86.612335] (gz-waves1) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object test/plots/CMakeFiles/PLOT_GnuPlotExample.dir/PLOT_GnuPlotExample.cc.o\x1b[0m\n'}
+[86.702964] (-) TimerEvent: {}
+[86.759056] (gz-waves1) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_LinearRegularWaveSimDisplacements\x1b[0m\n'}
+[86.803135] (-) TimerEvent: {}
+[86.904629] (-) TimerEvent: {}
+[87.005048] (-) TimerEvent: {}
+[87.105448] (-) TimerEvent: {}
+[87.205820] (-) TimerEvent: {}
+[87.274050] (gz-waves1) StdoutLine: {'line': b'[ 67%] Built target PERFORMANCE_LinearRegularWaveSimDisplacements\n'}
+[87.293029] (gz-waves1) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object test/plots/CMakeFiles/PLOT_LinearRandomFFTWaves.dir/PLOT_LinearRandomFFTWaves.cc.o\x1b[0m\n'}
+[87.305980] (-) TimerEvent: {}
+[87.406350] (-) TimerEvent: {}
+[87.506722] (-) TimerEvent: {}
+[87.607091] (-) TimerEvent: {}
+[87.707485] (-) TimerEvent: {}
+[87.808006] (-) TimerEvent: {}
+[87.908382] (-) TimerEvent: {}
+[88.008796] (-) TimerEvent: {}
+[88.109158] (-) TimerEvent: {}
+[88.209549] (-) TimerEvent: {}
+[88.309921] (-) TimerEvent: {}
+[88.410290] (-) TimerEvent: {}
+[88.510671] (-) TimerEvent: {}
+[88.611035] (-) TimerEvent: {}
+[88.711397] (-) TimerEvent: {}
+[88.811764] (-) TimerEvent: {}
+[88.912153] (-) TimerEvent: {}
+[89.012527] (-) TimerEvent: {}
+[89.112898] (-) TimerEvent: {}
+[89.213269] (-) TimerEvent: {}
+[89.313634] (-) TimerEvent: {}
+[89.413966] (-) TimerEvent: {}
+[89.514296] (-) TimerEvent: {}
+[89.614701] (-) TimerEvent: {}
+[89.618778] (gz-waves1) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PLOT_GnuPlotExample\x1b[0m\n'}
+[89.714835] (-) TimerEvent: {}
+[89.815233] (-) TimerEvent: {}
+[89.891447] (gz-waves1) StdoutLine: {'line': b'[ 69%] Built target PLOT_GnuPlotExample\n'}
+[89.912564] (gz-waves1) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object test/plots/CMakeFiles/PLOT_LinearRandomWaves.dir/PLOT_LinearRandomWaves.cc.o\x1b[0m\n'}
+[89.915368] (-) TimerEvent: {}
+[90.015748] (-) TimerEvent: {}
+[90.044840] (gz-waves1) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PERFORMANCE_WaveSpectrumECKV\x1b[0m\n'}
+[90.115921] (-) TimerEvent: {}
+[90.216319] (-) TimerEvent: {}
+[90.316709] (-) TimerEvent: {}
+[90.417090] (-) TimerEvent: {}
+[90.517537] (-) TimerEvent: {}
+[90.519035] (gz-waves1) StdoutLine: {'line': b'[ 72%] Built target PERFORMANCE_WaveSpectrumECKV\n'}
+[90.539124] (gz-waves1) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object test/plots/CMakeFiles/PLOT_LinearRegularWaves.dir/PLOT_LinearRegularWaves.cc.o\x1b[0m\n'}
+[90.617696] (-) TimerEvent: {}
+[90.718084] (-) TimerEvent: {}
+[90.818550] (-) TimerEvent: {}
+[90.919004] (-) TimerEvent: {}
+[91.019427] (-) TimerEvent: {}
+[91.119782] (-) TimerEvent: {}
+[91.220185] (-) TimerEvent: {}
+[91.320595] (-) TimerEvent: {}
+[91.420995] (-) TimerEvent: {}
+[91.521362] (-) TimerEvent: {}
+[91.621718] (-) TimerEvent: {}
+[91.656617] (gz-waves1) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PLOT_LinearRandomFFTWaves\x1b[0m\n'}
+[91.721859] (-) TimerEvent: {}
+[91.822261] (-) TimerEvent: {}
+[91.922667] (-) TimerEvent: {}
+[92.012862] (gz-waves1) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/DisplacementMap.cc.o\x1b[0m\n'}
+[92.022756] (-) TimerEvent: {}
+[92.061984] (gz-waves1) StdoutLine: {'line': b'[ 75%] Built target PLOT_LinearRandomFFTWaves\n'}
+[92.081319] (gz-waves1) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object test/plots/CMakeFiles/PLOT_WaveSpectrum.dir/PLOT_WaveSpectrum.cc.o\x1b[0m\n'}
+[92.122888] (-) TimerEvent: {}
+[92.223270] (-) TimerEvent: {}
+[92.265327] (gz-waves1) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-model-system.so\x1b[0m\n'}
+[92.325430] (-) TimerEvent: {}
+[92.425859] (-) TimerEvent: {}
+[92.526282] (-) TimerEvent: {}
+[92.626665] (-) TimerEvent: {}
+[92.724598] (gz-waves1) StdoutLine: {'line': b'[ 77%] Built target gz-waves1-waves-model-system\n'}
+[92.726843] (-) TimerEvent: {}
+[92.736512] (gz-waves1) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanGeometry.cc.o\x1b[0m\n'}
+[92.826993] (-) TimerEvent: {}
+[92.927375] (-) TimerEvent: {}
+[93.027748] (-) TimerEvent: {}
+[93.065642] (gz-waves1) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/OceanVisual.cc.o\x1b[0m\n'}
+[93.127908] (-) TimerEvent: {}
+[93.228299] (-) TimerEvent: {}
+[93.328669] (-) TimerEvent: {}
+[93.424358] (gz-waves1) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtension.cc.o\x1b[0m\n'}
+[93.428829] (-) TimerEvent: {}
+[93.529208] (-) TimerEvent: {}
+[93.629584] (-) TimerEvent: {}
+[93.729953] (-) TimerEvent: {}
+[93.830323] (-) TimerEvent: {}
+[93.930682] (-) TimerEvent: {}
+[94.031135] (-) TimerEvent: {}
+[94.131494] (-) TimerEvent: {}
+[94.231855] (-) TimerEvent: {}
+[94.250053] (gz-waves1) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PLOT_LinearRandomWaves\x1b[0m\n'}
+[94.331999] (-) TimerEvent: {}
+[94.432449] (-) TimerEvent: {}
+[94.532847] (-) TimerEvent: {}
+[94.633281] (-) TimerEvent: {}
+[94.706183] (gz-waves1) StdoutLine: {'line': b'[ 81%] Built target PLOT_LinearRandomWaves\n'}
+[94.713995] (gz-waves1) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionManager.cc.o\x1b[0m\n'}
+[94.733425] (-) TimerEvent: {}
+[94.833797] (-) TimerEvent: {}
+[94.890340] (gz-waves1) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PLOT_LinearRegularWaves\x1b[0m\n'}
+[94.934005] (-) TimerEvent: {}
+[95.034384] (-) TimerEvent: {}
+[95.134784] (-) TimerEvent: {}
+[95.235177] (-) TimerEvent: {}
+[95.274139] (gz-waves1) StdoutLine: {'line': b'[ 83%] Built target PLOT_LinearRegularWaves\n'}
+[95.281875] (gz-waves1) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/RenderEngineExtensionPlugin.cc.o\x1b[0m\n'}
+[95.336852] (-) TimerEvent: {}
+[95.437221] (-) TimerEvent: {}
+[95.537592] (-) TimerEvent: {}
+[95.618540] (gz-waves1) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering.dir/SceneNodeFactory.cc.o\x1b[0m\n'}
+[95.639551] (-) TimerEvent: {}
+[95.739926] (-) TimerEvent: {}
+[95.840308] (-) TimerEvent: {}
+[95.940692] (-) TimerEvent: {}
+[96.041122] (-) TimerEvent: {}
+[96.142517] (-) TimerEvent: {}
+[96.243450] (-) TimerEvent: {}
+[96.344165] (-) TimerEvent: {}
+[96.444546] (-) TimerEvent: {}
+[96.544917] (-) TimerEvent: {}
+[96.645290] (-) TimerEvent: {}
+[96.745916] (-) TimerEvent: {}
+[96.846441] (-) TimerEvent: {}
+[96.946858] (-) TimerEvent: {}
+[97.047241] (-) TimerEvent: {}
+[97.095711] (gz-waves1) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX executable ../../bin/PLOT_WaveSpectrum\x1b[0m\n'}
+[97.147496] (-) TimerEvent: {}
+[97.247898] (-) TimerEvent: {}
+[97.349293] (-) TimerEvent: {}
+[97.450410] (-) TimerEvent: {}
+[97.551683] (-) TimerEvent: {}
+[97.584038] (gz-waves1) StdoutLine: {'line': b'[ 87%] Built target PLOT_WaveSpectrum\n'}
+[97.651980] (-) TimerEvent: {}
+[97.752443] (-) TimerEvent: {}
+[97.852880] (-) TimerEvent: {}
+[97.953335] (-) TimerEvent: {}
+[98.053787] (-) TimerEvent: {}
+[98.154232] (-) TimerEvent: {}
+[98.254667] (-) TimerEvent: {}
+[98.355082] (-) TimerEvent: {}
+[98.455465] (-) TimerEvent: {}
+[98.555888] (-) TimerEvent: {}
+[98.656303] (-) TimerEvent: {}
+[98.756749] (-) TimerEvent: {}
+[98.857177] (-) TimerEvent: {}
+[98.957582] (-) TimerEvent: {}
+[99.058003] (-) TimerEvent: {}
+[99.158437] (-) TimerEvent: {}
+[99.258819] (-) TimerEvent: {}
+[99.359182] (-) TimerEvent: {}
+[99.461951] (-) TimerEvent: {}
+[99.562385] (-) TimerEvent: {}
+[99.662783] (-) TimerEvent: {}
+[99.763882] (-) TimerEvent: {}
+[99.864306] (-) TimerEvent: {}
+[99.964875] (-) TimerEvent: {}
+[100.065270] (-) TimerEvent: {}
+[100.165677] (-) TimerEvent: {}
+[100.266144] (-) TimerEvent: {}
+[100.366579] (-) TimerEvent: {}
+[100.467008] (-) TimerEvent: {}
+[100.567489] (-) TimerEvent: {}
+[100.818060] (-) TimerEvent: {}
+[100.918512] (-) TimerEvent: {}
+[101.019194] (-) TimerEvent: {}
+[101.119829] (-) TimerEvent: {}
+[101.220278] (-) TimerEvent: {}
+[101.320674] (-) TimerEvent: {}
+[101.421071] (-) TimerEvent: {}
+[101.521494] (-) TimerEvent: {}
+[101.942362] (-) TimerEvent: {}
+[102.044239] (-) TimerEvent: {}
+[102.146137] (-) TimerEvent: {}
+[102.251106] (-) TimerEvent: {}
+[102.353979] (-) TimerEvent: {}
+[102.454405] (-) TimerEvent: {}
+[102.554855] (-) TimerEvent: {}
+[102.655324] (-) TimerEvent: {}
+[102.755837] (-) TimerEvent: {}
+[102.856451] (-) TimerEvent: {}
+[102.956884] (-) TimerEvent: {}
+[103.057312] (-) TimerEvent: {}
+[103.157689] (-) TimerEvent: {}
+[103.262409] (-) TimerEvent: {}
+[103.362811] (-) TimerEvent: {}
+[103.463224] (-) TimerEvent: {}
+[103.563599] (-) TimerEvent: {}
+[103.664260] (-) TimerEvent: {}
+[103.767093] (-) TimerEvent: {}
+[103.867461] (-) TimerEvent: {}
+[103.973584] (-) TimerEvent: {}
+[104.074782] (-) TimerEvent: {}
+[104.175168] (-) TimerEvent: {}
+[104.276711] (-) TimerEvent: {}
+[104.378912] (-) TimerEvent: {}
+[104.487245] (-) TimerEvent: {}
+[104.587845] (-) TimerEvent: {}
+[104.688361] (-) TimerEvent: {}
+[104.788881] (-) TimerEvent: {}
+[104.889404] (-) TimerEvent: {}
+[104.989969] (-) TimerEvent: {}
+[105.090547] (-) TimerEvent: {}
+[105.209581] (-) TimerEvent: {}
+[105.310228] (-) TimerEvent: {}
+[105.410754] (-) TimerEvent: {}
+[105.511287] (-) TimerEvent: {}
+[105.611832] (-) TimerEvent: {}
+[105.712294] (-) TimerEvent: {}
+[105.812835] (-) TimerEvent: {}
+[105.913342] (-) TimerEvent: {}
+[106.013803] (-) TimerEvent: {}
+[106.114280] (-) TimerEvent: {}
+[106.214778] (-) TimerEvent: {}
+[106.315279] (-) TimerEvent: {}
+[106.415737] (-) TimerEvent: {}
+[106.516260] (-) TimerEvent: {}
+[106.616752] (-) TimerEvent: {}
+[106.717275] (-) TimerEvent: {}
+[106.817737] (-) TimerEvent: {}
+[106.918168] (-) TimerEvent: {}
+[107.018616] (-) TimerEvent: {}
+[107.119138] (-) TimerEvent: {}
+[107.219548] (-) TimerEvent: {}
+[107.319997] (-) TimerEvent: {}
+[107.420579] (-) TimerEvent: {}
+[107.521090] (-) TimerEvent: {}
+[107.621655] (-) TimerEvent: {}
+[107.722389] (-) TimerEvent: {}
+[107.822956] (-) TimerEvent: {}
+[107.923692] (-) TimerEvent: {}
+[108.024274] (-) TimerEvent: {}
+[108.125023] (-) TimerEvent: {}
+[108.225644] (-) TimerEvent: {}
+[108.326331] (-) TimerEvent: {}
+[108.426756] (-) TimerEvent: {}
+[108.527251] (-) TimerEvent: {}
+[108.629395] (-) TimerEvent: {}
+[108.729812] (-) TimerEvent: {}
+[108.831823] (-) TimerEvent: {}
+[108.932337] (-) TimerEvent: {}
+[109.032762] (-) TimerEvent: {}
+[109.133090] (-) TimerEvent: {}
+[109.233570] (-) TimerEvent: {}
+[109.333949] (-) TimerEvent: {}
+[109.434379] (-) TimerEvent: {}
+[109.534789] (-) TimerEvent: {}
+[109.635220] (-) TimerEvent: {}
+[109.735618] (-) TimerEvent: {}
+[109.842563] (-) TimerEvent: {}
+[109.943131] (-) TimerEvent: {}
+[110.043559] (-) TimerEvent: {}
+[110.143945] (-) TimerEvent: {}
+[110.244361] (-) TimerEvent: {}
+[110.345288] (-) TimerEvent: {}
+[110.454000] (-) TimerEvent: {}
+[110.560715] (-) TimerEvent: {}
+[110.661162] (-) TimerEvent: {}
+[110.761582] (-) TimerEvent: {}
+[110.862347] (-) TimerEvent: {}
+[110.962895] (-) TimerEvent: {}
+[111.063270] (-) TimerEvent: {}
+[111.163704] (-) TimerEvent: {}
+[111.264211] (-) TimerEvent: {}
+[111.365258] (-) TimerEvent: {}
+[111.470160] (-) TimerEvent: {}
+[111.570551] (-) TimerEvent: {}
+[111.670915] (-) TimerEvent: {}
+[111.771329] (-) TimerEvent: {}
+[111.871824] (-) TimerEvent: {}
+[111.972598] (-) TimerEvent: {}
+[112.073002] (-) TimerEvent: {}
+[112.173366] (-) TimerEvent: {}
+[112.273755] (-) TimerEvent: {}
+[112.374209] (-) TimerEvent: {}
+[112.474622] (-) TimerEvent: {}
+[112.575055] (-) TimerEvent: {}
+[112.675493] (-) TimerEvent: {}
+[112.780083] (-) TimerEvent: {}
+[112.885538] (-) TimerEvent: {}
+[112.986058] (-) TimerEvent: {}
+[113.089921] (-) TimerEvent: {}
+[113.190939] (-) TimerEvent: {}
+[113.300420] (-) TimerEvent: {}
+[113.408854] (-) TimerEvent: {}
+[113.509537] (-) TimerEvent: {}
+[113.648620] (-) TimerEvent: {}
+[113.768931] (-) TimerEvent: {}
+[113.882771] (-) TimerEvent: {}
+[113.985578] (-) TimerEvent: {}
+[114.094113] (-) TimerEvent: {}
+[114.198642] (-) TimerEvent: {}
+[114.309938] (-) TimerEvent: {}
+[114.416397] (-) TimerEvent: {}
+[114.518351] (-) TimerEvent: {}
+[114.618729] (-) TimerEvent: {}
+[114.719212] (-) TimerEvent: {}
+[114.820463] (-) TimerEvent: {}
+[114.920877] (-) TimerEvent: {}
+[115.021304] (-) TimerEvent: {}
+[115.121741] (-) TimerEvent: {}
+[115.222805] (-) TimerEvent: {}
+[115.331655] (-) TimerEvent: {}
+[115.432071] (-) TimerEvent: {}
+[115.532487] (-) TimerEvent: {}
+[115.632799] (-) TimerEvent: {}
+[115.733331] (-) TimerEvent: {}
+[115.833767] (-) TimerEvent: {}
+[115.934198] (-) TimerEvent: {}
+[116.036345] (-) TimerEvent: {}
+[116.137330] (-) TimerEvent: {}
+[116.237744] (-) TimerEvent: {}
+[116.338144] (-) TimerEvent: {}
+[116.438569] (-) TimerEvent: {}
+[116.538941] (-) TimerEvent: {}
+[116.639491] (-) TimerEvent: {}
+[116.739918] (-) TimerEvent: {}
+[116.840355] (-) TimerEvent: {}
+[116.940778] (-) TimerEvent: {}
+[117.041234] (-) TimerEvent: {}
+[117.141662] (-) TimerEvent: {}
+[117.242024] (-) TimerEvent: {}
+[117.325710] (gz-waves1) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-dynamic-geometry-system.so\x1b[0m\n'}
+[117.448123] (-) TimerEvent: {}
+[117.548544] (-) TimerEvent: {}
+[117.649151] (-) TimerEvent: {}
+[117.749675] (-) TimerEvent: {}
+[117.850110] (-) TimerEvent: {}
+[117.950574] (-) TimerEvent: {}
+[118.050947] (-) TimerEvent: {}
+[118.151303] (-) TimerEvent: {}
+[118.213324] (gz-waves1) StdoutLine: {'line': b'[ 88%] Built target gz-waves1-dynamic-geometry-system\n'}
+[118.251446] (-) TimerEvent: {}
+[118.351939] (-) TimerEvent: {}
+[118.452285] (-) TimerEvent: {}
+[118.552625] (-) TimerEvent: {}
+[118.652966] (-) TimerEvent: {}
+[118.753302] (-) TimerEvent: {}
+[118.853633] (-) TimerEvent: {}
+[118.953940] (-) TimerEvent: {}
+[119.054317] (-) TimerEvent: {}
+[119.154660] (-) TimerEvent: {}
+[119.256673] (-) TimerEvent: {}
+[119.357024] (-) TimerEvent: {}
+[119.457339] (-) TimerEvent: {}
+[119.557654] (-) TimerEvent: {}
+[119.657959] (-) TimerEvent: {}
+[119.758244] (-) TimerEvent: {}
+[119.858554] (-) TimerEvent: {}
+[119.958871] (-) TimerEvent: {}
+[120.059157] (-) TimerEvent: {}
+[120.159436] (-) TimerEvent: {}
+[120.260628] (-) TimerEvent: {}
+[120.360967] (-) TimerEvent: {}
+[120.461282] (-) TimerEvent: {}
+[120.561596] (-) TimerEvent: {}
+[120.661907] (-) TimerEvent: {}
+[120.762407] (-) TimerEvent: {}
+[120.862931] (-) TimerEvent: {}
+[120.963342] (-) TimerEvent: {}
+[121.063778] (-) TimerEvent: {}
+[121.164202] (-) TimerEvent: {}
+[121.264620] (-) TimerEvent: {}
+[121.364991] (-) TimerEvent: {}
+[121.465364] (-) TimerEvent: {}
+[121.565778] (-) TimerEvent: {}
+[121.666216] (-) TimerEvent: {}
+[121.766648] (-) TimerEvent: {}
+[121.814722] (gz-waves1) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering.so\x1b[0m\n'}
+[121.866804] (-) TimerEvent: {}
+[121.967208] (-) TimerEvent: {}
+[122.018338] (gz-waves1) StdoutLine: {'line': b'[ 89%] Built target gz-waves1-rendering\n'}
+[122.049635] (gz-waves1) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DisplacementMap.cc.o\x1b[0m\n'}
+[122.051189] (gz-waves1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2DynamicMesh.cc.o\x1b[0m\n'}
+[122.051265] (gz-waves1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanVisual.cc.o\x1b[0m\n'}
+[122.051579] (gz-waves1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2OceanGeometry.cc.o\x1b[0m\n'}
+[122.051828] (gz-waves1) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-waves-visual-system.dir/WavesVisual.cc.o\x1b[0m\n'}
+[122.051888] (gz-waves1) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2RenderEngineExtension.cc.o\x1b[0m\n'}
+[122.067356] (-) TimerEvent: {}
+[122.167725] (-) TimerEvent: {}
+[122.268118] (-) TimerEvent: {}
+[122.368501] (-) TimerEvent: {}
+[122.468899] (-) TimerEvent: {}
+[122.569316] (-) TimerEvent: {}
+[122.669739] (-) TimerEvent: {}
+[122.770210] (-) TimerEvent: {}
+[122.870613] (-) TimerEvent: {}
+[122.971070] (-) TimerEvent: {}
+[123.071556] (-) TimerEvent: {}
+[123.139302] (gz-waves1) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking CXX executable ../bin/UNIT_CGAL_TEST\x1b[0m\n'}
+[123.171767] (-) TimerEvent: {}
+[123.272166] (-) TimerEvent: {}
+[123.372539] (-) TimerEvent: {}
+[123.473043] (-) TimerEvent: {}
+[123.573423] (-) TimerEvent: {}
+[123.673778] (-) TimerEvent: {}
+[123.774158] (-) TimerEvent: {}
+[123.874511] (-) TimerEvent: {}
+[123.974861] (-) TimerEvent: {}
+[124.017437] (gz-waves1) StdoutLine: {'line': b'[ 95%] Built target UNIT_CGAL_TEST\n'}
+[124.027627] (gz-waves1) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object src/systems/waves/CMakeFiles/gz-waves1-rendering-ogre2.dir/Ogre2SceneNodeFactory.cc.o\x1b[0m\n'}
+[124.075025] (-) TimerEvent: {}
+[124.175500] (-) TimerEvent: {}
+[124.275848] (-) TimerEvent: {}
+[124.376284] (-) TimerEvent: {}
+[124.476694] (-) TimerEvent: {}
+[124.577084] (-) TimerEvent: {}
+[124.677493] (-) TimerEvent: {}
+[124.777993] (-) TimerEvent: {}
+[124.878398] (-) TimerEvent: {}
+[124.978779] (-) TimerEvent: {}
+[125.079189] (-) TimerEvent: {}
+[125.179543] (-) TimerEvent: {}
+[125.279895] (-) TimerEvent: {}
+[125.380269] (-) TimerEvent: {}
+[125.480658] (-) TimerEvent: {}
+[125.581534] (-) TimerEvent: {}
+[125.682272] (-) TimerEvent: {}
+[125.782696] (-) TimerEvent: {}
+[125.883053] (-) TimerEvent: {}
+[125.983430] (-) TimerEvent: {}
+[126.083783] (-) TimerEvent: {}
+[126.184150] (-) TimerEvent: {}
+[126.284519] (-) TimerEvent: {}
+[126.384916] (-) TimerEvent: {}
+[126.485312] (-) TimerEvent: {}
+[126.585677] (-) TimerEvent: {}
+[126.686033] (-) TimerEvent: {}
+[126.786383] (-) TimerEvent: {}
+[126.886748] (-) TimerEvent: {}
+[126.987097] (-) TimerEvent: {}
+[127.087447] (-) TimerEvent: {}
+[127.187821] (-) TimerEvent: {}
+[127.288163] (-) TimerEvent: {}
+[127.388541] (-) TimerEvent: {}
+[127.488897] (-) TimerEvent: {}
+[127.589330] (-) TimerEvent: {}
+[127.689759] (-) TimerEvent: {}
+[127.790176] (-) TimerEvent: {}
+[127.890586] (-) TimerEvent: {}
+[127.991007] (-) TimerEvent: {}
+[128.091408] (-) TimerEvent: {}
+[128.191854] (-) TimerEvent: {}
+[128.292269] (-) TimerEvent: {}
+[128.392783] (-) TimerEvent: {}
+[128.493241] (-) TimerEvent: {}
+[128.593659] (-) TimerEvent: {}
+[128.694179] (-) TimerEvent: {}
+[128.794625] (-) TimerEvent: {}
+[128.911056] (-) TimerEvent: {}
+[129.011408] (-) TimerEvent: {}
+[129.065309] (gz-waves1) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-hydrodynamics-system.so\x1b[0m\n'}
+[129.111618] (-) TimerEvent: {}
+[129.212104] (-) TimerEvent: {}
+[129.312495] (-) TimerEvent: {}
+[129.412844] (-) TimerEvent: {}
+[129.513262] (-) TimerEvent: {}
+[129.613665] (-) TimerEvent: {}
+[129.714037] (-) TimerEvent: {}
+[129.797194] (gz-waves1) StdoutLine: {'line': b'[ 97%] Built target gz-waves1-hydrodynamics-system\n'}
+[129.814214] (-) TimerEvent: {}
+[129.914643] (-) TimerEvent: {}
+[130.015041] (-) TimerEvent: {}
+[130.115498] (-) TimerEvent: {}
+[130.216215] (-) TimerEvent: {}
+[130.316749] (-) TimerEvent: {}
+[130.417324] (-) TimerEvent: {}
+[130.517883] (-) TimerEvent: {}
+[130.618450] (-) TimerEvent: {}
+[130.719031] (-) TimerEvent: {}
+[130.819602] (-) TimerEvent: {}
+[130.920219] (-) TimerEvent: {}
+[131.020815] (-) TimerEvent: {}
+[131.121510] (-) TimerEvent: {}
+[131.221999] (-) TimerEvent: {}
+[131.322497] (-) TimerEvent: {}
+[131.422917] (-) TimerEvent: {}
+[131.523390] (-) TimerEvent: {}
+[131.623894] (-) TimerEvent: {}
+[131.724689] (-) TimerEvent: {}
+[131.825161] (-) TimerEvent: {}
+[131.925598] (-) TimerEvent: {}
+[132.026049] (-) TimerEvent: {}
+[132.126525] (-) TimerEvent: {}
+[132.227103] (-) TimerEvent: {}
+[132.327685] (-) TimerEvent: {}
+[132.428234] (-) TimerEvent: {}
+[132.528832] (-) TimerEvent: {}
+[132.629314] (-) TimerEvent: {}
+[132.729724] (-) TimerEvent: {}
+[132.830249] (-) TimerEvent: {}
+[132.930816] (-) TimerEvent: {}
+[133.031429] (-) TimerEvent: {}
+[133.132009] (-) TimerEvent: {}
+[133.232532] (-) TimerEvent: {}
+[133.332984] (-) TimerEvent: {}
+[133.433568] (-) TimerEvent: {}
+[133.534030] (-) TimerEvent: {}
+[133.634510] (-) TimerEvent: {}
+[133.734957] (-) TimerEvent: {}
+[133.835420] (-) TimerEvent: {}
+[133.935889] (-) TimerEvent: {}
+[134.036378] (-) TimerEvent: {}
+[134.136948] (-) TimerEvent: {}
+[134.237445] (-) TimerEvent: {}
+[134.338071] (-) TimerEvent: {}
+[134.438649] (-) TimerEvent: {}
+[134.539246] (-) TimerEvent: {}
+[134.639796] (-) TimerEvent: {}
+[134.740353] (-) TimerEvent: {}
+[134.840910] (-) TimerEvent: {}
+[134.941412] (-) TimerEvent: {}
+[135.041843] (-) TimerEvent: {}
+[135.142408] (-) TimerEvent: {}
+[135.242887] (-) TimerEvent: {}
+[135.343498] (-) TimerEvent: {}
+[135.444196] (-) TimerEvent: {}
+[135.544675] (-) TimerEvent: {}
+[135.645238] (-) TimerEvent: {}
+[135.745650] (-) TimerEvent: {}
+[135.846044] (-) TimerEvent: {}
+[135.946578] (-) TimerEvent: {}
+[136.047069] (-) TimerEvent: {}
+[136.147573] (-) TimerEvent: {}
+[136.248009] (-) TimerEvent: {}
+[136.348495] (-) TimerEvent: {}
+[136.448969] (-) TimerEvent: {}
+[136.549441] (-) TimerEvent: {}
+[136.649892] (-) TimerEvent: {}
+[136.750370] (-) TimerEvent: {}
+[136.850871] (-) TimerEvent: {}
+[136.951403] (-) TimerEvent: {}
+[137.051955] (-) TimerEvent: {}
+[137.152452] (-) TimerEvent: {}
+[137.252934] (-) TimerEvent: {}
+[137.353344] (-) TimerEvent: {}
+[137.453907] (-) TimerEvent: {}
+[137.554468] (-) TimerEvent: {}
+[137.654999] (-) TimerEvent: {}
+[137.755551] (-) TimerEvent: {}
+[137.856090] (-) TimerEvent: {}
+[137.956643] (-) TimerEvent: {}
+[138.057210] (-) TimerEvent: {}
+[138.157693] (-) TimerEvent: {}
+[138.258205] (-) TimerEvent: {}
+[138.358883] (-) TimerEvent: {}
+[138.459336] (-) TimerEvent: {}
+[138.559810] (-) TimerEvent: {}
+[138.660431] (-) TimerEvent: {}
+[138.760905] (-) TimerEvent: {}
+[138.861383] (-) TimerEvent: {}
+[138.961957] (-) TimerEvent: {}
+[139.062449] (-) TimerEvent: {}
+[139.162870] (-) TimerEvent: {}
+[139.263436] (-) TimerEvent: {}
+[139.363995] (-) TimerEvent: {}
+[139.464605] (-) TimerEvent: {}
+[139.565318] (-) TimerEvent: {}
+[139.665872] (-) TimerEvent: {}
+[139.766451] (-) TimerEvent: {}
+[139.866968] (-) TimerEvent: {}
+[139.967498] (-) TimerEvent: {}
+[140.068035] (-) TimerEvent: {}
+[140.168631] (-) TimerEvent: {}
+[140.269206] (-) TimerEvent: {}
+[140.369661] (-) TimerEvent: {}
+[140.470108] (-) TimerEvent: {}
+[140.570627] (-) TimerEvent: {}
+[140.671217] (-) TimerEvent: {}
+[140.771699] (-) TimerEvent: {}
+[140.872154] (-) TimerEvent: {}
+[140.972692] (-) TimerEvent: {}
+[141.073185] (-) TimerEvent: {}
+[141.173616] (-) TimerEvent: {}
+[141.274090] (-) TimerEvent: {}
+[141.374572] (-) TimerEvent: {}
+[141.475629] (-) TimerEvent: {}
+[141.576133] (-) TimerEvent: {}
+[141.676953] (-) TimerEvent: {}
+[141.777471] (-) TimerEvent: {}
+[141.878289] (-) TimerEvent: {}
+[141.978783] (-) TimerEvent: {}
+[142.079658] (-) TimerEvent: {}
+[142.180110] (-) TimerEvent: {}
+[142.280528] (-) TimerEvent: {}
+[142.381005] (-) TimerEvent: {}
+[142.481478] (-) TimerEvent: {}
+[142.581895] (-) TimerEvent: {}
+[142.682395] (-) TimerEvent: {}
+[142.783181] (-) TimerEvent: {}
+[142.883705] (-) TimerEvent: {}
+[142.984161] (-) TimerEvent: {}
+[143.084595] (-) TimerEvent: {}
+[143.185012] (-) TimerEvent: {}
+[143.285403] (-) TimerEvent: {}
+[143.385897] (-) TimerEvent: {}
+[143.486340] (-) TimerEvent: {}
+[143.586874] (-) TimerEvent: {}
+[143.687377] (-) TimerEvent: {}
+[143.788103] (-) TimerEvent: {}
+[143.888913] (-) TimerEvent: {}
+[143.989408] (-) TimerEvent: {}
+[144.089940] (-) TimerEvent: {}
+[144.190805] (-) TimerEvent: {}
+[144.281678] (gz-waves1) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-waves-visual-system.so\x1b[0m\n'}
+[144.290964] (-) TimerEvent: {}
+[144.391367] (-) TimerEvent: {}
+[144.491813] (-) TimerEvent: {}
+[144.592600] (-) TimerEvent: {}
+[144.623518] (gz-waves1) StdoutLine: {'line': b'[ 98%] Built target gz-waves1-waves-visual-system\n'}
+[144.692819] (-) TimerEvent: {}
+[144.793236] (-) TimerEvent: {}
+[144.893659] (-) TimerEvent: {}
+[144.994178] (-) TimerEvent: {}
+[145.094690] (-) TimerEvent: {}
+[145.195202] (-) TimerEvent: {}
+[145.295830] (-) TimerEvent: {}
+[145.396343] (-) TimerEvent: {}
+[145.496874] (-) TimerEvent: {}
+[145.597381] (-) TimerEvent: {}
+[145.698122] (-) TimerEvent: {}
+[145.798629] (-) TimerEvent: {}
+[145.899365] (-) TimerEvent: {}
+[145.999934] (-) TimerEvent: {}
+[146.100464] (-) TimerEvent: {}
+[146.201003] (-) TimerEvent: {}
+[146.301567] (-) TimerEvent: {}
+[146.402183] (-) TimerEvent: {}
+[146.502902] (-) TimerEvent: {}
+[146.603489] (-) TimerEvent: {}
+[146.704289] (-) TimerEvent: {}
+[146.804812] (-) TimerEvent: {}
+[146.905369] (-) TimerEvent: {}
+[147.005906] (-) TimerEvent: {}
+[147.106506] (-) TimerEvent: {}
+[147.207055] (-) TimerEvent: {}
+[147.307594] (-) TimerEvent: {}
+[147.408186] (-) TimerEvent: {}
+[147.508835] (-) TimerEvent: {}
+[147.609404] (-) TimerEvent: {}
+[147.709941] (-) TimerEvent: {}
+[147.810506] (-) TimerEvent: {}
+[147.911087] (-) TimerEvent: {}
+[148.012190] (-) TimerEvent: {}
+[148.112783] (-) TimerEvent: {}
+[148.213357] (-) TimerEvent: {}
+[148.313913] (-) TimerEvent: {}
+[148.414441] (-) TimerEvent: {}
+[148.515015] (-) TimerEvent: {}
+[148.615619] (-) TimerEvent: {}
+[148.716231] (-) TimerEvent: {}
+[148.816855] (-) TimerEvent: {}
+[148.917385] (-) TimerEvent: {}
+[149.017850] (-) TimerEvent: {}
+[149.118339] (-) TimerEvent: {}
+[149.218890] (-) TimerEvent: {}
+[149.319437] (-) TimerEvent: {}
+[149.358817] (gz-waves1) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library ../../../lib/libgz-waves1-rendering-ogre2.so\x1b[0m\n'}
+[149.419672] (-) TimerEvent: {}
+[149.520295] (-) TimerEvent: {}
+[149.621316] (-) TimerEvent: {}
+[149.721911] (-) TimerEvent: {}
+[149.726173] (gz-waves1) StdoutLine: {'line': b'[100%] Built target gz-waves1-rendering-ogre2\n'}
+[149.829908] (-) TimerEvent: {}
+[149.865585] (gz-waves1) CommandEnded: {'returncode': 0}
+[149.945930] (-) TimerEvent: {}
+[149.986781] (gz-waves1) JobProgress: {'identifier': 'gz-waves1', 'progress': 'install'}
+[150.024317] (gz-waves1) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andy/gz_ws/build/gz-waves1'], 'cwd': '/home/andy/gz_ws/build/gz-waves1', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', ':/home/andy/gz_ws/install/lib:gz_ws/install/lib:/home/andy/gz_ws/src/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_GUI_PLUGIN_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build:asv_wave_sim/gz-waves/src/gui/plugins/waves_control/build'), ('GZ_SIM_RESOURCE_PATH', ':/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worlds:/asv_wave_sim/gz-waves-models/models:/asv_wave_sim/gz-waves-models/world_models:/asv_wave_sim/gz-waves-models/worldsexport:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/world_models:/home/andy/gz_ws/src/asv_wave_sim/gz-waves-models/worlds:asv_wave_sim/gz-waves-models/models:asv_wave_sim/gz-waves-models/world_models:asv_wave_sim/gz-waves-models/worlds'), ('USER', 'andy'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/andy/gz_ws/src/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/andy'), ('OLDPWD', '/home/andy/gz_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'andy'), ('NAME', 'DESKTOP-MMOFPK5'), ('WSL_INTEROP', '/run/WSL/8_interop'), ('PULSE_SERVER', '/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/andy/gz_ws/src/install/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/andy/gz_ws/src/install/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files (x86)/AMD/ATI.ACE/Core-Static:/mnt/c/PROGRA~1/JPKI:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/HP/HP One Agent:/mnt/c/Program Files/MATLAB/R2024a/runtime/win64:/mnt/c/Program Files/MATLAB/R2024a/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/andyc/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/andyc/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('XDG_RUNTIME_DIR', '/mnt/wslg/runtime-dir'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('GZ_IP', '127.0.0.1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GZ_VERSION', 'garden'), ('PWD', '/home/andy/gz_ws/build/gz-waves1'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/andy/gz_ws/src/install'), ('WSLENV', '')]), 'shell': False}
+[150.051906] (-) TimerEvent: {}
+[150.052472] (gz-waves1) StdoutLine: {'line': b'-- Install configuration: "RelWithDebInfo"\n'}
+[150.052588] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config.cmake\n'}
+[150.052636] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-config-version.cmake\n'}
+[150.052698] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-all/gz-waves1-all-targets.cmake\n'}
+[150.052742] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/detail/Export.hh\n'}
+[150.052782] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Export.hh\n'}
+[150.052822] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1.so.1.0.0\n'}
+[150.124525] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1.so.1\n'}
+[150.124943] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1.so\n'}
+[150.125396] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config.cmake\n'}
+[150.125563] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-config-version.cmake\n'}
+[150.126680] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets.cmake\n'}
+[150.127086] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1/gz-waves1-targets-relwithdebinfo.cmake\n'}
+[150.128245] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1.pc\n'}
+[150.131182] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/detail/Export.hh\n'}
+[150.131536] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/dynamic-geometry-system/Export.hh\n'}
+[150.131880] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0\n'}
+[150.136493] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1\n'}
+[150.137225] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so.1.0.0" to ""\n'}
+[150.137397] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-dynamic-geometry-system.so\n'}
+[150.137642] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config.cmake\n'}
+[150.137912] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-config-version.cmake\n'}
+[150.139117] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets.cmake\n'}
+[150.139745] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-dynamic-geometry-system/gz-waves1-dynamic-geometry-system-targets-relwithdebinfo.cmake\n'}
+[150.140218] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-dynamic-geometry-system.pc\n'}
+[150.142039] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/detail/Export.hh\n'}
+[150.142410] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/hydrodynamics-system/Export.hh\n'}
+[150.142804] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1.0.0\n'}
+[150.152150] (-) TimerEvent: {}
+[150.152757] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1\n'}
+[150.153368] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so.1.0.0" to ""\n'}
+[150.153625] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-hydrodynamics-system.so\n'}
+[150.153736] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config.cmake\n'}
+[150.153833] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-config-version.cmake\n'}
+[150.155528] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets.cmake\n'}
+[150.156040] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-hydrodynamics-system/gz-waves1-hydrodynamics-system-targets-relwithdebinfo.cmake\n'}
+[150.156450] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-hydrodynamics-system.pc\n'}
+[150.158990] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/rendering/detail/Export.hh\n'}
+[150.159507] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/rendering/Export.hh\n'}
+[150.160146] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering.so.1.0.0\n'}
+[150.162712] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering.so.1\n'}
+[150.163364] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-rendering.so.1.0.0" to ""\n'}
+[150.163548] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering.so\n'}
+[150.163670] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config.cmake\n'}
+[150.163908] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-config-version.cmake\n'}
+[150.165735] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets.cmake\n'}
+[150.166137] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering/gz-waves1-rendering-targets-relwithdebinfo.cmake\n'}
+[150.166533] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-rendering.pc\n'}
+[150.167769] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/detail/Export.hh\n'}
+[150.168158] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/rendering-ogre2/Export.hh\n'}
+[150.168593] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1.0.0\n'}
+[150.175885] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1\n'}
+[150.176217] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so.1.0.0" to ""\n'}
+[150.176331] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-rendering-ogre2.so\n'}
+[150.176590] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config.cmake\n'}
+[150.177127] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-config-version.cmake\n'}
+[150.178186] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets.cmake\n'}
+[150.178714] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-rendering-ogre2/gz-waves1-rendering-ogre2-targets-relwithdebinfo.cmake\n'}
+[150.179160] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-rendering-ogre2.pc\n'}
+[150.180718] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/detail/Export.hh\n'}
+[150.181173] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/waves-visual-system/Export.hh\n'}
+[150.181623] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1.0.0\n'}
+[150.188215] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1\n'}
+[150.188639] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-waves-visual-system.so.1.0.0" to ""\n'}
+[150.189012] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-visual-system.so\n'}
+[150.189634] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config.cmake\n'}
+[150.189803] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-config-version.cmake\n'}
+[150.190195] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets.cmake\n'}
+[150.190638] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-visual-system/gz-waves1-waves-visual-system-targets-relwithdebinfo.cmake\n'}
+[150.191055] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-waves-visual-system.pc\n'}
+[150.192265] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/detail/Export.hh\n'}
+[150.192705] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/waves-model-system/Export.hh\n'}
+[150.193196] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1.0.0\n'}
+[150.206382] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1\n'}
+[150.206834] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/lib/libgz-waves1-waves-model-system.so.1.0.0" to ""\n'}
+[150.207017] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/libgz-waves1-waves-model-system.so\n'}
+[150.207152] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config.cmake\n'}
+[150.207450] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-config-version.cmake\n'}
+[150.207924] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets.cmake\n'}
+[150.208348] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/cmake/gz-waves1-waves-model-system/gz-waves1-waves-model-system-targets-relwithdebinfo.cmake\n'}
+[150.208764] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/lib/pkgconfig/gz-waves1-waves-model-system.pc\n'}
+[150.210831] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/components/Wavefield.hh\n'}
+[150.211209] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Algorithm.hh\n'}
+[150.211525] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/CGALTypes.hh\n'}
+[150.211701] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Convert.hh\n'}
+[150.211987] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Geometry.hh\n'}
+[150.212343] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Grid.hh\n'}
+[150.212732] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomFFTWaveSimulation.hh\n'}
+[150.212991] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/LinearRandomWaveSimulation.hh\n'}
+[150.213175] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/LinearRegularWaveSimulation.hh\n'}
+[150.213495] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/MeshTools.hh\n'}
+[150.213809] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/OceanTile.hh\n'}
+[150.213983] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/PhysicalConstants.hh\n'}
+[150.214282] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Physics.hh\n'}
+[150.214653] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/TriangulatedGrid.hh\n'}
+[150.214976] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/TrochoidIrregularWaveSimulation.hh\n'}
+[150.215283] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Types.hh\n'}
+[150.215490] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Utilities.hh\n'}
+[150.215584] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/WaveParameters.hh\n'}
+[150.215899] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/WaveSimulation.hh\n'}
+[150.216055] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/WaveSpectrum.hh\n'}
+[150.216235] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/WaveSpreadingFunction.hh\n'}
+[150.216412] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/Wavefield.hh\n'}
+[150.216599] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/WavefieldSampler.hh\n'}
+[150.216987] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/../waves.hh\n'}
+[150.217350] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/config.hh\n'}
+[150.218230] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/include/gz/waves1/gz/waves/components.hh\n'}
+[150.220777] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/bin/PLOT_GnuPlotExample\n'}
+[150.223515] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/bin/PLOT_GnuPlotExample" to ""\n'}
+[150.223735] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/bin/PLOT_LinearRandomFFTWaves\n'}
+[150.226852] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/bin/PLOT_LinearRandomFFTWaves" to ""\n'}
+[150.226971] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/bin/PLOT_LinearRandomWaves\n'}
+[150.230259] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/bin/PLOT_LinearRandomWaves" to ""\n'}
+[150.230389] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/bin/PLOT_LinearRegularWaves\n'}
+[150.233614] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/bin/PLOT_LinearRegularWaves" to ""\n'}
+[150.233850] (gz-waves1) StdoutLine: {'line': b'-- Installing: /home/andy/gz_ws/install/bin/PLOT_WaveSpectrum\n'}
+[150.237905] (gz-waves1) StdoutLine: {'line': b'-- Set runtime path of "/home/andy/gz_ws/install/bin/PLOT_WaveSpectrum" to ""\n'}
+[150.249290] (gz-waves1) CommandEnded: {'returncode': 0}
+[150.272749] (-) TimerEvent: {}
+[150.379482] (-) TimerEvent: {}
+[150.433374] (gz-waves1) JobEnded: {'identifier': 'gz-waves1', 'rc': 0}
+[150.439937] (-) EventReactorShutdown: {}
